@@ -1,4 +1,4 @@
-# Tkinter Libraries
+# Tkinter Tools and Libraries
 A list of some modern tkinter widgets that can boost your application look.
 
 Tkinter is the default UI library for python.
