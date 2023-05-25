@@ -8,7 +8,7 @@ Tkinter is the default UI library for python.
 - Quick UI development
 - New modern widgets for any type of program
 - Average execution speed (depends on program)
-- Easy to compile with pyintaller (making .exe)
+- Easy to compile with pyinstaller (making .exe)
 - All basic customisability
 
 If you are planning to create an application or want implement a UI for your scripts, then tkinter is one of the best options out there.
