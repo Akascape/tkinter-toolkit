@@ -34,7 +34,7 @@ Note: This app is not a download manager for the libaries, it is just a collecti
 
 Hope it can help tkinter users and also the respected repository owners. If you have made or found some new tkinter library, then share it here!
 
-[<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/categories/add-this)
+[<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 [<img src="https://img.shields.io/badge/APP_LICENSE-MIT-informational?&color=green&style=for-the-badge" width="150">](https://github.com/Akascape/tkinter-toolkit/blob/main/LICENSE)
