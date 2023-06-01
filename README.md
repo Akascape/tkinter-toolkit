@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="https://github.com/Akascape/tkinter-toolkit/assets/89206401/9dcada5c-72a0-44ca-b855-5d29bd7ae5d5" alt="Logo" width="150" height="150">
+  <img src="https://github.com/Akascape/tkinter-toolkit/assets/89206401/9dcada5c-72a0-44ca-b855-5d29bd7ae5d5" alt="Logo" width="100" height="100">
   <h1 align="center">Tkinter-Toolkit</h1>
 </div>
 
