@@ -1,1 +1,422 @@
+{
+"CustomTkinter": {
+	"name": "customtkinter",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Modern UI Library",
+	"full_desc": "CustomTkinter is a python UI-library based on Tkinter, which provides new, modern and fully customizable widgets. They are created and used like normal Tkinter widgets and can also be used in combination with normal Tkinter elements. The widgets and the window colors either adapt to the system appearance or the manually set mode ('light', 'dark'), and all CustomTkinter widgets and windows support HighDPI scaling (Windows, macOS). With CustomTkinter you'll get a consistent and modern look across all desktop platforms (Windows, macOS, Linux).",
+	"author": "TomSchimansky",
+	"highlights": ["Fully customisable widget", "CTkButton", "CTkEntry", "CTkComboBox", "CTkFrame", "CTkToplevel", "CTkLabel", "CTkScrollableFrame", "CTkSlider", "CTkTabview", "CTkSwitch", "CTkTextbox", "And more..."],
+	"repo_url": "https://github.com/TomSchimansky/CustomTkinter",
+	"image_url": "https://raw.githubusercontent.com/TomSchimansky/CustomTkinter/master/documentation_images/complex_example_dark_Windows.png",
+	"installation": "pip install customtkinter",
+	"tags": ["customtkinter", "tkinter", "ctk", "frame", "toplevel", "combobox","slider","progressbar","text","button","entry","label"]
+	},
 
+"CTkMessagebox": {
+	"name": "ctkmessagebox",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Messagebox for CTk",
+	"full_desc": "A modern and fully customizable messagebox for customtkinter.",
+	"author": "Akascape",
+	"highlights": ["Add custom icons or images", "Add multiple options according to your wish","Comes with 5 default icons","Spawns at center of the screen/app","No ugly looking header or borders","Fade-in/Fade-out window effect"],
+	"repo_url": "https://github.com/Akascape/CTkMessagebox",
+	"image_url": "https://user-images.githubusercontent.com/89206401/221258593-75058878-b598-40c3-828a-1d44a6cefb73.jpg",
+	"installation": "pip install CTkMessagebox",
+	"tags": ["ctkmessagebox","customtkinter", "messagebox", "box","info","icons","popup"]
+	},
+
+"CTkColorPicker": {
+	"name": "ctkcolorpicker",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Color picker for CTk",
+	"full_desc": "A modern color picker made for customtkinter!",
+	"author": "Akascape",
+	"highlights": ["color picker window", "color picker widget", "set initial color [beta stage]"],
+	"repo_url": "https://github.com/Akascape/CTkColorPicker",
+	"image_url": "https://user-images.githubusercontent.com/89206401/209182773-d76bf05c-610e-4297-aec5-7bb61a11d6d3.jpg",
+	"installation": "pip install CTkColorPicker",
+	"tags": ["ctkcolorpicker","customtkinter", "colorpicker", "colors", "picker","color chooser"]
+	},
+
+"CTkTable": {
+	"name": "ctktable",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Table widget for CTk",
+	"full_desc": "A quick and simple table widget having all the basic features.",
+	"author": "Akascape",
+	"highlights": ["Add/Edit/Delete rows and columns", "Insert values to cells",  "Update values in cells", "add commands"],
+	"repo_url": "https://github.com/Akascape/CTkTable",
+	"image_url": "https://user-images.githubusercontent.com/89206401/233420929-bf210cb3-5b5f-49b2-ba7a-f01d187e72cf.jpg",
+	"installation": "https://github.com/Akascape/CTkTable",
+	"tags": ["ctktable","customtkinter", "table", "treeview", "tabular","data"]
+	},
+
+"CTkTooltip": {
+	"name": "ctktooltip",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Tooltip for CTk",
+	"full_desc": "Small tooltip pop-up label for displaying details on customtkinter widgets.",
+	"author": "Akascape",
+	"highlights": ["Display over any widget", "Round corners",  "Transparency effects", "Show live values"],
+	"repo_url": "https://github.com/Akascape/CTkToolTip",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242210130-7c39fd9a-32bc-4ed3-b33a-575572d9ae66.jpg",
+	"installation": "https://github.com/Akascape/CTkToolTip",
+	"tags": ["ctktooltip","customtkinter", "tooltips", "tips", "popup"]
+	},
+
+"CTkScrollableDropdown": {
+	"name": "ctkscrollabledropdown",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "DropdownMenu widget for combobox and optionmenus",
+	"full_desc": "Replace the old looking tkMenu and add this new scrollable dropdown menu to customtkinter optionmenu, combobox, entries, buttons etc...",
+	"author": "Akascape",
+	"highlights": ["Round corners", "Define custom height for the menu",  "Automatic resize", "Autocomplete options"],
+	"repo_url": "https://github.com/Akascape/CTkScrollableDropdown",
+	"image_url": "https://user-images.githubusercontent.com/89206401/236677843-8d8b76fd-6145-47b1-8f4d-b6a64b08e1ea.png",
+	"installation": "https://github.com/Akascape/CTkScrollableDropdown",
+	"tags": ["ctkscrollabledropdown","customtkinter", "menu", "dropdownmenu"]
+	},
+
+"CTkRangeSlider": {
+	"name": "ctkrangeslider",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Range slider widget for CTk",
+	"full_desc": "A range slider widget made for customtkinter.",
+	"author": "Akascape",
+	"highlights": ["Works just like CTkSlider", "Dual headed slider",  "Separate commands", "All customisability"],
+	"repo_url": "https://github.com/Akascape/CTkRangeSlider",
+	"image_url": "https://user-images.githubusercontent.com/89206401/229349732-0e078b00-f2b7-46e7-9774-313090253769.jpg",
+	"installation": "https://github.com/Akascape/CTkRangeSlider",
+	"tags": ["ctkrangeslider","customtkinter", "slider", "rangeslider", "dual","range slider"]
+	},
+
+"CTkMenuBar": {
+	"name": "ctkmenubar",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Custom ToolBar widget",
+	"full_desc": "Modern menu bar widget library for customtkinter.",
+	"author": "Akascape",
+	"highlights": ["Custom dropdown", "Add submenus",  "Menu bar in title", "Add cascades"],
+	"repo_url": "https://github.com/Akascape/CTkMenuBar",
+	"image_url": "https://user-images.githubusercontent.com/89206401/241711282-02c512b2-557f-4d59-86e0-a6eb9da3696c.png",
+	"installation": "https://github.com/Akascape/CTkMenuBar",
+	"tags": ["ctkmenubar","menubar", "titlebar", "dropdownmenu"]
+	},
+
+"CTkPopupKeyboard":{
+	"name": "ctkpopupkeyboard",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "On-Screen Keyboard/Numpad widget",
+	"full_desc": "On-Screen Keyboard/Numpad widget for customtkinter entries and textbox.",
+	"author": "Akascape",
+	"highlights": ["Custom keyboard and numpad", "All key characters",  "Transparency effects"],
+	"repo_url": "https://github.com/Akascape/CTkPopupKeyboard",
+	"image_url": "https://user-images.githubusercontent.com/89206401/236622957-5e140b42-eeaa-41de-aeb3-a6d95d3023b1.png",
+	"installation": "https://github.com/Akascape/CTkPopupKeyboard",
+	"tags": ["ctkpopupkeyboard","popup","keyboard", "numpad", "popupkeyboard","on screen"]
+	},
+
+"TkDial": {
+	"name": "tkdial",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Dial/Knob widget library",
+	"full_desc": "This is a library containing some circular rotatory dial-knob widgets for Tkinter. It can be used in place of normal sliders and scale.",
+	"author": "Akascape",
+	"highlights": ["Dial widget", "Meter widget",  "Circular Progressbar", "Knob widget", "Custom image knobs"],
+	"repo_url": "https://github.com/Akascape/TkDial",
+	"image_url": "https://user-images.githubusercontent.com/89206401/204718389-d3195b3b-0f7a-41c3-85b8-ffc1d961db70.png",
+	"installation": "pip install tkdial",
+	"tags": ["tkdial","knob","dial", "circular", "sliders","meter"]
+	},
+
+"TkNodeSystem": {
+	"name": "tknodesystem",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Visual node-based UI",
+	"full_desc": "TkNodeSystem is a nodal-interface, basically a DAG where each node performs an operation on it's input connections, and outputs something (which you can connect to another node). \nIt can be used to implement flow-based operations in your application. It can be used with tkinter or customtkinter easily as it is created with tkinter canvas.",
+	"author": "Akascape",
+	"highlights": ["Implement node-based UI", "Save/Load node trees",  "Multiple node types", "Custom operations", "Built-in Node menu","Drag and zoom canvas"],
+	"repo_url": "https://github.com/Akascape/TkNodeSystem",
+	"image_url": "https://user-images.githubusercontent.com/89206401/238861383-a84cb60a-cc6f-4609-8452-3ff4fcd0c46b.png",
+	"installation": "pip install tknodesystem",
+	"tags": ["nodes", "dag",  "tknodes", "tkinter", "tknodesystem","visual","node system"]
+	},
+
+"CTkThemeMaker": {
+	"name": "ctkthememaker",
+	"type": "manual",
+	"icon": "pkg",
+	"desc": "Lite theme maker of CTk",
+	"full_desc": "A quick and easy theme builder for customtkinter!",
+	"author": "Akascape",
+	"highlights": ["Create custom themes", "Save/Load themes",  "Quick test themes", "No extra installation"],
+	"repo_url": "https://github.com/Akascape/CTkThemeMaker",
+	"image_url": "https://user-images.githubusercontent.com/89206401/216785762-7277326d-3a87-4e01-aae3-302af1e5ec3a.jpg",
+	"installation": "https://github.com/Akascape/CTkThemeMaker",
+	"tags": ["themes", "thememaker",  "customtkinter", "customtkinter themes", "colors"]
+	},
+
+"CTkThemeBuilder": {
+	"name": "ctkthemebuilder",
+	"type": "manual",
+	"icon": "pkg",
+	"desc": "Advanced theme maker of CTk",
+	"full_desc": "CTk Theme Builder provides a WYSIWYG interface for creating and maintaining CustomTkinter themes.",
+	"author": "Clive Bostock",
+	"highlights": ["Create custom themes", "Adjust all colors and properties",  "Save/Load themes", "See live preview of the theme", "Color palletes", "Advanced tools included"],
+	"repo_url": "https://github.com/avalon60/ctk_theme_builder",
+	"image_url": "https://raw.githubusercontent.com/avalon60/ctk_theme_builder/develop/docs/CTkThemeBuilder-about.png",
+	"installation": "https://github.com/avalon60/ctk_theme_builder/releases",
+	"tags": ["themes", "thememaker",  "customtkinter", "customtkinter themes", "colors", "themebuilder", "build"]
+	},
+
+"TkVideoPlayer": {
+	"name": "tkvideoplayer",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Video player widget",
+	"full_desc": "This is a simple library to play video files in tkinter. This library also provides the ability to play, pause, skip and seek to specific timestamps.",
+	"author": "PaulleDemon",
+	"highlights": ["Video player widget", "Seek to timestamps",  "Play/Pause videos", "Resizable frame"],
+	"repo_url": "https://github.com/PaulleDemon/tkVideoPlayer",
+	"image_url": "https://user-images.githubusercontent.com/89206401/196894602-d756d46c-4871-4a2f-b5cb-4b6ac1665c29.jpg",
+	"installation": "pip install tkvideoplayer",
+	"tags": ["videoplayer", "video player",  "tkvideoplayer", "label"]
+	},
+
+"TkChart": {
+	"name": "tkchart",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Chart widget for CTk",
+	"full_desc": "Create charts in tkinter & customtkinter windows!",
+	"author": "Thisal-D",
+	"highlights": ["plot graph easily", "configure graph data", "animated graph", "fully customisable", "lightweight library"],
+	"repo_url": "https://github.com/Thisal-D/tkchart",
+	"image_url": "https://user-images.githubusercontent.com/93121062/204732876-1d3f7526-93ea-4e5e-905b-b768020fd572.png",
+	"installation": "pip install tkchart",
+	"tags": ["tkchart","ctkchart", "chart", "graph", "plot"]
+	},
+	
+"TkCalendar": {
+	"name": "tkcalendar",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Calender widget",
+	"full_desc": "tkcalendar is a python module that provides the Calendar and DateEntry widgets for Tkinter. The DateEntry widget is similar to a Combobox, but the drop-down is not a list but a Calendar to select a date. Events can be displayed in the Calendar with custom colors and a tooltip displays the event list for a given day. tkcalendar is compatible with both Python 2 and Python 3. It supports many locale settings (e.g. 'fr_FR', 'en_US', ..) and the colors are customizable.",
+	"author": "Juliette Monsel",
+	"highlights": ["Calendar widget", "Lots of customisable options",  "Data entry widget"],
+	"repo_url": "https://github.com/j4321/tkcalendar",
+	"image_url": "https://user-images.githubusercontent.com/89206401/207638596-9fb1389b-0d40-44c9-ad9a-755749ad5a04.jpg",
+	"installation": "pip install tkcalendar",
+	"tags": ["tkcalendar","calendar", "data", "data entry", "date", "time"]
+	},
+	
+"TkTerminal": {
+	"name": "tkterminal",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Console widget",
+	"full_desc": "This library gives Terminal widget support to the Tkinter library. Perform almost all the operations of a terminal with tkterminal.",
+	"author": "Saad Mairaj",
+	"highlights": ["All terminal commands can be passed", "Enable shell",  "Enable line number bar for the terminal", "Pass command that requires input"],
+	"repo_url": "https://github.com/Saadmairaj/tkterminal",
+	"image_url": "https://user-images.githubusercontent.com/46227224/113672526-8811cb00-96d5-11eb-8527-5f8c559482fc.png",
+	"installation": "pip install tkterminal",
+	"tags": ["tkterminal","terminal", "console", "command line", "command prompt"]
+	},
+		
+"Auto-py-to-exe": {
+	"name": "auto-py-to-exe",
+	"type": "pip",
+	"icon": "pkg",
+	"desc": "Package utility",
+	"full_desc": "A .py to .exe converter using a simple graphical interface and PyInstaller in Python.",
+	"author": "Brent Vollebregt",
+	"highlights": ["Convert your python script to exe", "easy interface for pyinstaller",  "make one-file or one-directory exe", "settings can be saved"],
+	"repo_url": "https://github.com/brentvollebregt/auto-py-to-exe",
+	"image_url": "https://user-images.githubusercontent.com/89206401/188321124-654cb993-80b3-4c92-8aa4-ca366931c96e.png",
+	"installation": "pip install auto-py-to-exe",
+	"tags": ["auto-py-to-exe","auto py to exe", "pyinstaller", "executable"]
+	},
+
+"TkMacosx": {
+	"name": "tkmacosx",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Modified widget library",
+	"full_desc": "This module provides some modified widgets of Tkinter which fixes many issues with widgets not working properly on macOS platform. For example Button of tkmacosx which looks and feels exactly like a native Tkinter button can change its background and foreground color and has a lot more functionality, Issues with Radiobutton are also fixed with this library. The library also offers some more useful widgets functionality. \nNote that these widgets are also supported in other platforms.",
+	"author": "Saad Mairaj",
+	"highlights": ["Different button styles", "CircleButton Widget",  "Colorscale Widget", "Marquee Label Widget", "Radiobutton Widget", "More functionalities"],
+	"repo_url": "https://github.com/Saadmairaj/tkmacosx",
+	"image_url": "https://user-images.githubusercontent.com/46227224/114270791-e8816f00-9a2b-11eb-911c-a736253b3de5.png",
+	"installation": "pip install tkmacosx",
+	"tags": ["tkmacosx","macos", "tkinter", "widgets", "color picker", "colorscale", "colorpicker", "label", "radiobutton", "circle button"]
+	},
+	
+"Chlorophyll": {
+	"name": "chlorophyll",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Code editor",
+	"full_desc": "Chlorophyll provides the CodeView widget for tkinter, which is a Text widget with syntax highlighting, line numbers, and works as a simple code editor. It is written in Python and uses the pygments library for syntax highlighting and the TkLineNums module for line numbers.",
+	"author": "rdbende",
+	"highlights": ["CodeView widget", "syntax highlights based on the coding language",  "Line numbers", "Code Editor"],
+	"repo_url": "https://github.com/rdbende/chlorophyll",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242209433-c9ac174c-3364-42c1-bff9-bc236b7002f3.jpg",
+	"installation": "pip install chlorophyll",
+	"tags": ["tkcode", "code editor", "coding", "editor", "syntax", "console", "code view", "text"]
+	},
+	
+"TkSheet": {
+	"name": "tksheet",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Advanced Table widget",
+	"full_desc": "tksheet is a Python tkinter table widget written in pure python. It works using tkinter canvases and moves lines, text and rectangles around for only the visible portion of the table",
+	"author": "ragardner",
+	"highlights": ["Display and modify tabular data", "Runs smoothly even with millions of rows/columns",  "Drag and drop columns and rows", "Change any colors in the sheet","Create an unlimited number of high performance dropdown and check boxes","Edit cells directly"],
+	"repo_url": "https://github.com/ragardner/tksheet",
+	"image_url": "https://camo.githubusercontent.com/e1e2ed1c9c1914ad755e5675bca4e613a3232f193bd698a5912b7f351007a6f6/68747470733a2f2f692e696d6775722e636f6d2f4a654639764a652e6a706567",
+	"installation": "pip install tksheet",
+	"tags": ["tksheet", "table", "table", "treeview", "tabular","data", "sheet", "excel"]
+	},
+	
+"TkDnD2": {
+	"name": "tkinterdnd2",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Drag and drop support",
+	"full_desc": "tkDnD2 is a tcl/Tk extension adding native drag and drop support.",
+	"author": "Philippe Gagne",
+	"highlights": ["Tkinter native drag and drop support for windows, unix and Mac OSX."],
+	"repo_url": "https://github.com/pmgagne/tkinterdnd2",
+	"image_url": null,
+	"installation": "pip install tkinterdnd2",
+	"tags": ["tkdnd2", "tkinter", "drag and drop", "drop files", "files","dnd2"]
+	},
+	
+"TkSliderWidget": {
+	"name": "tksliderwidget",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Multi-headed sliders",
+	"full_desc": "Implementation of a slider widget using tkinter, multiple slider supported.",
+	"author": "MengxLi",
+	"highlights": ["Multi-headed sliders", "Customisable slider"],
+	"repo_url": "https://github.com/pmgagne/tkinterdnd2",
+	"image_url": "https://camo.githubusercontent.com/fe742c09edaec51969d3d5de63e32427fdce2a1a53eb8f10b91283b947903806/687474703a2f2f692e6962622e636f2f7a5259503946762f416e6e6f746174696f6e2d323032302d30322d31332d3137323931342e706e67",
+	"installation": "https://github.com/MenxLi/tkSliderWidget",
+	"tags": ["tkslider", "sliders", "multi slider", "scale", "points"]
+	}, 
+
+"AnimatedGif": {
+	"name": "animatedgif",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "GIF widget",
+	"full_desc": "A very simple class (subclass of tkinter.Label) that displays an animated GIF in a label and either runs the animation in a separate thread or using tkinter's after() method.",
+	"author": "OJ Skjelten",
+	"highlights": ["Show gifs in tkinter window", "Customisable slider"],
+	"repo_url": "https://github.com/olesk75/AnimatedGIF",
+	"image_url": null,
+	"installation": "https://github.com/olesk75/AnimatedGIF",
+	"tags": ["gifs", "animation", "label"]
+	},
+
+"AwesomeTkinter": {
+	"name": "awesometkinter",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Image type widget library",
+	"full_desc": "AwesomeTkinter offers some pretty tkinter widgets. These widgets are just a tkinter widgets with custom styles and images.",
+	"author": "Aboghazala",
+	"highlights": ["3D Button widget", "Circular progress bar", "segmented progess bar", "date picker", "more widgets..." ],
+	"repo_url": "https://github.com/Aboghazala/AwesomeTkinter",
+	"image_url": "https://user-images.githubusercontent.com/37757246/93717162-3c059b80-fb74-11ea-9998-00fc5ba82ca3.png",
+	"installation": "pip install awesometkinter",
+	"tags": ["buttons", "styes", "progressbar","tooltips", "circular", "date picker"]
+	},
+
+"TkFileBrowser": {
+	"name": "tkfilebrowser",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "File dialogs",
+	"full_desc": "tkfilebrowser is an alternative to tkinter.filedialog that allows the user to select files or directories. The GUI is written with tkinter but the look is closer to GTK and the application uses GTK bookmarks (the one displayed in nautilus or thunar for instance). This filebrowser supports new directory creation and filtype filtering.",
+	"author": "Juliette Monsel",
+	"highlights": ["Alternative to tkinter file dialog", "askopenfilename", "askopenfilenames", "askopendirname", "askopendirnames", "asksaveasfilename"],
+	"repo_url": "https://github.com/j4321/tkFileBrowser",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242241123-5796e3cf-5246-42a9-b606-99485bdfd979.png",
+	"installation": "pip install tkfilebrowser",
+	"tags": ["files", "file browser", "file manager","save", "open", "dialog"]
+	},
+
+"CTkPDFViewer": {
+	"name": "ctkpdfviewer",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "PDF widget",
+	"full_desc": "A simple yet powerfull pdf viewer widget for customtkinter! This can be helpful for adding documentation (in the form of PDF) inside your application. \nUsers can quicky view the offline copy of your documenation.",
+	"author": "Akascape",
+	"highlights": ["Quick PDF widget",  "Load PDF files", "Configure page height/width", "Scrollable pages"],
+	"repo_url": "https://github.com/Akascape/CTkPDFViewer",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242335931-1324243e-da47-4bd8-af46-cded53cb7b51.jpg",
+	"installation": "https://github.com/Akascape/CTkPDFViewer",
+	"tags": ["files", "pdf viewer", "pdf files","viewer", "documentation", "about"]
+	},
+
+"TkColorPicker": {
+	"name": "tkcolorpicker",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Color Picker",
+	"full_desc": "This module contains a ColorPicker class which implements the color picker and an askcolor function that displays the color picker and returns the chosen color in RGB and HTML formats.",
+	"author": "Juliette Monsel",
+	"highlights": ["Alternative to default color picker", "classic gradient tools", "detailed color values", "color palleters"],
+	"repo_url": "https://github.com/j4321/tkColorPicker",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242483953-1baf0d80-e892-4745-ae26-153a0382a3bc.jpg",
+	"installation": "pip install tkcolorpicker",
+	"tags": ["tkcolorpicker","tkinter", "colorpicker", "colors", "picker","color chooser"]
+	},
+
+"TkFontChooser": {
+	"name": "tkfontchooser",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Font chooser dialog",
+	"full_desc": "This module contains a FontChooser class which implements the font chooser and an askfont function that displays the font chooser and returns the chosen font when the user closes the font chooser. The font is returned as a dictionary like the one returned by the function 'tkFont.Font.actual'.",
+	"author": "Juliette Monsel",
+	"highlights": ["Font chooser dialog", "All font styles", "Preview fonts"],
+	"repo_url": "https://github.com/j4321/tkFontChooser",
+	"image_url": "https://user-images.githubusercontent.com/89206401/242485025-f4a7fb17-4e4e-485f-a1f6-5d8f12ad5943.jpg",
+	"installation": "pip install tkfontchooser",
+	"tags": ["tkfontchooser","fonts", "words", "chooser", "font chooser"]
+	},
+
+"TkinterWeb": {
+	"name": "tkinterweb",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Web browser widget",
+	"full_desc": "TkinterWeb offers bindings for the Tkhtml3 widget, which enables loading HTML and CSS code into Tkinter applications. \nAll major operating systems running Python 2.6+ or Python 3+ are supported.",
+	"author": "Anderoo",
+	"highlights": ["Show websites in tkinter frame", "Basic html view only"],
+	"repo_url": "https://github.com/Andereoo/TkinterWeb",
+	"image_url": "https://raw.githubusercontent.com/Andereoo/TkinterWeb/main/tkinterweb/images/tkinterweb.png",
+	"installation": "pip install tkinterweb",
+	"tags": ["tkwebbrowser","website", "web browser", "browser", "tkinterweb", "webpage"]
+	}
+
+}
