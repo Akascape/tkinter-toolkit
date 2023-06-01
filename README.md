@@ -16,6 +16,8 @@ Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchim
   
 </div>
 
+Requirements: `customtkinter`, `PIL`
+
 ## Features
 - Easily search new tkinter packages
 - Installation links are provided
