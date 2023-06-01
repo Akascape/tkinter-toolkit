@@ -32,7 +32,9 @@ Requirements: `customtkinter`, `PIL`
 
 Note: This app is not a download manager for the libaries, it is just a collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database.**
 
-Hope it can help tkinter users and also the respected repository owners. _If you have made or found some new tkinter library, then share it here!_
+Hope it can help tkinter users and also the respected repository owners. 
+
+_If you have made or found some new tkinter library, then share it here!_
 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
 
