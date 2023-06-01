@@ -23,7 +23,7 @@ Requirements: `customtkinter`, `PIL`
 - Installation links are provided
 - Preview images of the library
 - Detailed description provided
-- Update database and view new packages if available
+- Database can be updated for new packages
 
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/1884b4da-37c5-4b2c-ade4-4dd8b9012fa5)
