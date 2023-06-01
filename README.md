@@ -30,7 +30,7 @@ Requirements: `customtkinter`, `PIL`
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/3349b82d-9b92-4a26-82e5-9e54f3ebaf60)
 
 
-Note: This app is not a download manager for the libaries, it is just a collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database.**
+Note: This app is not a download manager for the libaries, it just shows the collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database.**
 
 Hope it will help tkinter users and also the respected repository owners. 
 
