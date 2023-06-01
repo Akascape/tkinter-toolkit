@@ -1,7 +1,7 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <img src="https://github.com/Akascape/tkinter-toolkit/assets/89206401/9dcada5c-72a0-44ca-b855-5d29bd7ae5d5" alt="Logo" width="100" height="100">
+  <img src="https://github.com/Akascape/tkinter-toolkit/assets/89206401/3cdb512e-918f-4935-bbbc-ecc05a17701d" alt="Logo" width="100" height="100">
   <h1 align="center">Tkinter-Toolkit</h1>
 </div>
 
@@ -25,9 +25,10 @@ Requirements: `customtkinter`, `PIL`
 - Detailed description provided
 - Update database and view new packages if available
 
-![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/f26005ef-fea7-4633-b734-bffb885d2b8f)
-![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/69a90dfd-e6ce-4305-8c07-3fa449418ace)
-![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/0d79f72a-8f61-4b6c-a170-b3f5a5b92305)
+![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
+![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/1884b4da-37c5-4b2c-ade4-4dd8b9012fa5)
+![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/3349b82d-9b92-4a26-82e5-9e54f3ebaf60)
+
 
 Note: This app is not a download manager for the libaries, it is just a collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database.**
 
