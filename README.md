@@ -1,17 +1,14 @@
-# Tkinter Tools and Libraries
-A list of some modern tkinter widgets that can boost your application look.
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <img src="https://github.com/Akascape/tkinter-toolkit/assets/89206401/9dcada5c-72a0-44ca-b855-5d29bd7ae5d5" alt="Logo" width="150" height="150">
+  <h1 align="center">Tkinter-Toolkit</h1>
+</div>
 
-Tkinter is the default UI library for python.
+Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widgets for your application. If you are planning to create an application or want to implement a UI for your scripts, then tkinter is still one of the best options out there. The tkinter community is also growing and people are making new widgets for the library.
+Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern UI with tkinter.
 
-**Why tkinter is still a good library for UI development?**
-- Easy to learn and debug
-- Quick UI development
-- New modern widgets for any type of program
-- Average execution speed (depends on program)
-- Easy to compile with pyinstaller (making .exe)
-- All basic customisability
+**Tkinter-Toolkit is a small application that helps you find new tkinter widget libraries.** There are lots of awesome libraries and widgets listed in the app. 
 
-If you are planning to create an application or want to implement a UI for your scripts, then tkinter is one of the best options out there.
-With some new libraries, your app will look awesome.
 
-Here you will find some latest tkinter based widget libraries created by different individuals, most of them are uploaded to pip but some need manual installation which is not a big deal.
+
