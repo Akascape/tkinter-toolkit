@@ -17,7 +17,7 @@ Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchim
 </div>
 
 ## Features
-- Easily find tkinter packages
+- Easily search new tkinter packages
 - Installation links are provided
 - Preview images of the library
 - Detailed description provided
