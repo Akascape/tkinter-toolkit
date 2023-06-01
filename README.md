@@ -37,4 +37,4 @@ Hope it can help tkinter users and also the respected repository owners. If you 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/categories/add-this)
 
 [![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[<img src="https://img.shields.io/badge/LICENSE-MIT-informational?&color=red&style=for-the-badge" width="150">](https://github.com/Akascape/tkinter-toolkit/blob/main/LICENSE)
+[<img src="https://img.shields.io/badge/APP_LICENSE-MIT-informational?&color=green&style=for-the-badge" width="150">](https://github.com/Akascape/tkinter-toolkit/blob/main/LICENSE)
