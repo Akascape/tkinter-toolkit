@@ -8,7 +8,7 @@
 Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget for your application. If you are planning to create a piece of software or want to implement a GUI for your scripts, then tkinter is still one of the best options out there. The tkinter community is also growing and people are making new custom widgets for the library.
 Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI.
 
-**Tkinter-Toolkit is a small application that helps you find new tkinter widget libraries created by some awesome people.** There are lots of libraries and widgets listed in the app. 
+**Tkinter-Toolkit is a small application that helps you find new tkinter/customtkinter widget libraries created by some awesome people.** There are lots of libraries and widgets listed in this app. 
 
 <div align="center">
   
