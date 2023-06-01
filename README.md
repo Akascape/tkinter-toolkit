@@ -19,7 +19,7 @@ Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchim
 Requirements: `customtkinter`, `PIL`
 
 ## Features
-- Easily search new tkinter packages
+- Easily search new tkinter libraries
 - Installation links are provided
 - Preview images of the library
 - Detailed description provided
