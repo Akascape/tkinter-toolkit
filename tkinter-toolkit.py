@@ -104,7 +104,7 @@ class App(customtkinter.CTk):
         """ search the packages based on package tags """
         for i in self.data.keys():
             for j in self.data[i]["tags"]:
-                if j.startswith(string.lower()):
+                if j.replace(" ", "").startswith(string.lower().replace(" ", "")):
                     if self.data[i]["type"]==self.option_type.get() or self.option_type.get()=="All":
                         self.item_frame[i].pack(expand=True, fill="x", padx=5, pady=5)
                         break
