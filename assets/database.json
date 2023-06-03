@@ -417,6 +417,48 @@
 	"image_url": "https://raw.githubusercontent.com/Andereoo/TkinterWeb/main/tkinterweb/images/tkinterweb.png",
 	"installation": "pip install tkinterweb",
 	"tags": ["tkwebbrowser","website", "web browser", "browser", "tkinterweb", "webpage"]
+	},
+
+"TkinterMapView": {
+	"name": "tkintermapview",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Map display widget",
+	"full_desc": "TkinterMapView is a tile based interactive map renderer widget for the python Tkinter library. By default, it displays the OpenStreetMap map, but you can change the tile server to whatever you like, and it also supports a second tile server for overlays like OpenSeaMap. You can set the current focus of the widget by a position or address, and place markers or a path on the map.",
+	"author": "TomSchimansky",
+	"highlights": ["Mapview widget", "Set coordinate position", "Set address position", "Set position with marker", "Set position and zoom to fit bounding box", "Create path from position list",  "Create polygon from position list", "Use other map servers"],
+	"repo_url": "https://github.com/TomSchimansky/TkinterMapView",
+	"image_url": "https://user-images.githubusercontent.com/89206401/243061279-d6baac4e-1404-4c0c-9558-41d0d9f51ba5.png",
+	"installation": "pip install tkintermapview",
+	"tags": ["tkintermapview", "tkmap", "ctkmap", "customtkinter", "mapview", "maps","sattelite","directions","googlemaps"]
+	},
+
+"TkTimePicker": {
+	"name": "tkTimePicker",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Clock timepicker",
+	"full_desc": "This is a simple and fully customizable timepicker widgets made for tkinter. You can make use of three types of timepicker.",
+	"author": "PaulleDemon",
+	"highlights": ["Time picker widget", "clock timepicker",  "old-spin timepicker", "modern-spin timepicker", "different themes"],
+	"repo_url": "https://github.com/PaulleDemon/tkTimePicker",
+	"image_url": "https://raw.githubusercontent.com/PaulleDemon/tkTimePicker/master/ReadMeImages/DraculaDark.png",
+	"installation": "pip install tkTimePicker",
+	"tags": ["timepicker", "tktimepicker",  "datetime", "clock", "analog", "digital"]
+	},
+
+"Sun-Valley-ttk-Theme": {
+	"name": "sv-ttk",
+	"type": "pip",
+	"icon": "pkg",
+	"desc": "Modern theme for default tkinter widgets",
+	"full_desc": "The sv_ttk package allows you to easily apply the Sun Valley theme to your Tkinter/ttk app.",
+	"author": "rdbende",
+	"highlights": ["A modern theme for default tkinter", "Dark/Light themes",  "Easy to apply, just add `sv_ttk.set_theme('dark')`"],
+	"repo_url": "https://github.com/rdbende/Sun-Valley-ttk-theme",
+	"image_url": "https://raw.githubusercontent.com/rdbende/Sun-Valley-ttk-examples/master/Widget%20demo/Screenshot.png",
+	"installation": "pip install sv-ttk",
+	"tags": ["svttk", "sv-ttk", "sun valley theme", "themes", "tkinter", "ttk"]
 	}
 
 }
