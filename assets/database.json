@@ -444,7 +444,7 @@
 	"repo_url": "https://github.com/PaulleDemon/tkTimePicker",
 	"image_url": "https://raw.githubusercontent.com/PaulleDemon/tkTimePicker/master/ReadMeImages/DraculaDark.png",
 	"installation": "pip install tkTimePicker",
-	"tags": ["timepicker", "tktimepicker",  "datetime", "clock", "analog", "digital"]
+	"tags": ["timepicker", "tktimepicker",  "datetime", "clock", "analog", "digital", "dial"]
 	},
 
 "Sun-Valley-ttk-Theme": {
