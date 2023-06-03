@@ -458,7 +458,7 @@
 	"repo_url": "https://github.com/rdbende/Sun-Valley-ttk-theme",
 	"image_url": "https://raw.githubusercontent.com/rdbende/Sun-Valley-ttk-examples/master/Widget%20demo/Screenshot.png",
 	"installation": "pip install sv-ttk",
-	"tags": ["svttk", "sv-ttk", "sun valley theme", "themes", "tkinter", "ttk"]
+	"tags": ["svttk", "sv-ttk", "sun valley theme", "themes", "sunvalleyttktheme", "tkinter", "ttk"]
 	}
 
 }
