@@ -12,7 +12,7 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 
 <div align="center">
   
-[<img src="https://img.shields.io/badge/DOWNLOAD-Tk_Toolkit-informational?&color=cyan&logo=Python&logoColor=yellow&style=for-the-badge"  width="300">](https://github.com/Akascape/tkinter-toolkit/archive/refs/heads/main.zip)
+[<img src="https://img.shields.io/badge/DOWNLOAD-Tkinter_Toolkit-informational?&color=cyan&logo=Python&logoColor=yellow&style=for-the-badge"  width="300">](https://github.com/Akascape/tkinter-toolkit/archive/refs/heads/main.zip)
   
 </div>
 
