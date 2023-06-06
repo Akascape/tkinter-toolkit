@@ -57,7 +57,7 @@
 
 "CTkTooltip": {
 	"name": "ctktooltip",
-	"type": "manual",
+	"type": "pip",
 	"icon": "ctk",
 	"desc": "Tooltip for CTk",
 	"full_desc": "Small tooltip pop-up label for displaying details on customtkinter widgets.",
@@ -65,7 +65,7 @@
 	"highlights": ["Display over any widget", "Round corners",  "Transparency effects", "Show live values"],
 	"repo_url": "https://github.com/Akascape/CTkToolTip",
 	"image_url": "https://user-images.githubusercontent.com/89206401/242210130-7c39fd9a-32bc-4ed3-b33a-575572d9ae66.jpg",
-	"installation": "https://github.com/Akascape/CTkToolTip",
+	"installation": "pip install CTkToolTip",
 	"tags": ["ctktooltip","customtkinter", "tooltips", "tips", "popup"]
 	},
 
