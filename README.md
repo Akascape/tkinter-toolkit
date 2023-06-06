@@ -25,6 +25,7 @@ Requirements: `customtkinter`, `PIL`
 - Detailed description provided
 - Database can be updated for new packages
 
+## Screenshots
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/1884b4da-37c5-4b2c-ade4-4dd8b9012fa5)
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/3349b82d-9b92-4a26-82e5-9e54f3ebaf60)
