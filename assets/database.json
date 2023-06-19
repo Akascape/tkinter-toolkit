@@ -459,6 +459,34 @@
 	"image_url": "https://raw.githubusercontent.com/rdbende/Sun-Valley-ttk-examples/master/Widget%20demo/Screenshot.png",
 	"installation": "pip install sv-ttk",
 	"tags": ["svttk", "sv-ttk", "sun valley theme", "themes", "sunvalleyttktheme", "tkinter", "ttk"]
+	},
+
+"TkFontAwesome": {
+	"name": "tkfontawesome",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Icon Library",
+	"full_desc": "A library that enables you to use FontAwesome icons in your tkinter application. \nYou may use any of the 1k+ free FontAwesome 5.0 icons. The fill color and size are customized to your specifications and then converted to an object via tksvg that can be used anywhere you would use a tkinter.PhotoImage object.",
+	"author": "Israel Dryer",
+	"highlights": ["Easily add FontAwesome icons", "website: https://fontawesome.com/versions"],
+	"repo_url": "https://github.com/israel-dryer/TkFontAwesome",
+	"image_url": "https://raw.githubusercontent.com/israel-dryer/TkFontAwesome/main/assets/example-2.1.png",
+	"installation": "pip install tkfontawesome",
+	"tags": ["fonts", "tkfontawesome", "icons", "images", "svg"]
+	},
+
+"TTkBootstrap": {
+	"name": "ttkbootstrap",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Theme/Widget Library",
+	"full_desc": "A supercharged theme extension for tkinter that enables on-demand modern flat style themes inspired by Bootstrap.",
+	"author": "Israel Dryer",
+	"highlights": ["Built-in Themes", "Pre-defined styles", "Simple keyword API", "Lots of new widgets", "Built-in theme creator"],
+	"repo_url": "https://github.com/israel-dryer/ttkbootstrap",
+	"image_url": "https://user-images.githubusercontent.com/89206401/246755992-a4f0206d-55e4-4d2d-983a-610a2cc94256.jpg",
+	"installation": "pip install ttkbootstrap",
+	"tags": ["widgets", "themes", "styles", "library", "ttkbootstrap"]
 	}
 
 }
