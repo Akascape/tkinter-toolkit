@@ -494,7 +494,7 @@
 	"type": "manual",
 	"icon": "pkg",
 	"desc": "Windows 11 themes",
-	"full_desc": "Customize your tkinter windows with awesome built-in window styles and themes. \nThis is only for windows 11",
+	"full_desc": "Customize your tkinter window with awesome built-in windows header styles and themes. \nThis is only for windows 11",
 	"author": "Akascape",
 	"highlights": ["Acrylic theme (blurred window)", "Aero Theme","Custom header colors", "Transparent themes","Windows 7 retro theme","dark header themes", "More customizable window options"],
 	"repo_url": "https://github.com/Akascape/py-window-styles",
