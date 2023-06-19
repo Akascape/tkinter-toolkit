@@ -487,6 +487,20 @@
 	"image_url": "https://user-images.githubusercontent.com/89206401/246755992-a4f0206d-55e4-4d2d-983a-610a2cc94256.jpg",
 	"installation": "pip install ttkbootstrap",
 	"tags": ["widgets", "themes", "styles", "library", "ttkbootstrap"]
+	},
+	
+"Py-Window-Styles": {
+	"name": "pywindowstyles",
+	"type": "manual",
+	"icon": "pkg",
+	"desc": "Windows 11 themes",
+	"full_desc": "Customize your tkinter windows with awesome built-in window styles and themes. \nThis is only for windows 11",
+	"author": "Akascape",
+	"highlights": ["Acrylic theme (blurred window)", "Aero Theme","Custom header colors", "Transparent themes","Windows 7 retro theme","dark header themes", "More customizable window options"],
+	"repo_url": "https://github.com/Akascape/py-window-styles",
+	"image_url": "https://user-images.githubusercontent.com/89206401/246872839-986062c0-30a0-4289-929a-e5e2440b8dd1.jpg",
+	"installation": "https://github.com/Akascape/py-window-styles",
+	"tags": ["themes","pywindowstyles", "windows11", "styles","blurred","acrylic","headercolor", "titlebar"]
 	}
 
 }
