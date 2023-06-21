@@ -43,7 +43,7 @@
 
 "CTkTable": {
 	"name": "ctktable",
-	"type": "manual",
+	"type": "pip",
 	"icon": "ctk",
 	"desc": "Table widget for CTk",
 	"full_desc": "A quick and simple table widget having all the basic features.",
@@ -51,7 +51,7 @@
 	"highlights": ["Add/Edit/Delete rows and columns", "Insert values to cells",  "Update values in cells", "add commands"],
 	"repo_url": "https://github.com/Akascape/CTkTable",
 	"image_url": "https://user-images.githubusercontent.com/89206401/233420929-bf210cb3-5b5f-49b2-ba7a-f01d187e72cf.jpg",
-	"installation": "https://github.com/Akascape/CTkTable",
+	"installation": "pip install CTkTable",
 	"tags": ["ctktable","customtkinter", "table", "treeview", "tabular","data"]
 	},
 
