@@ -501,6 +501,20 @@
 	"image_url": "https://user-images.githubusercontent.com/89206401/246872839-986062c0-30a0-4289-929a-e5e2440b8dd1.jpg",
 	"installation": "https://github.com/Akascape/py-window-styles",
 	"tags": ["themes","pywindowstyles", "windows11", "styles","blurred","acrylic","headercolor", "titlebar"]
+	},
+	
+"CTkListbox": {
+	"name": "ctklistbox",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Custom Listbox widget",
+	"full_desc": "A quick and modern listbox widget for customtkinter.",
+	"author": "Akascape",
+	"highlights": ["Similar to the tkinter listbox widget", "Configurable options"],
+	"repo_url": "https://github.com/Akascape/CTkListbox",
+	"image_url": "https://user-images.githubusercontent.com/89206401/247524994-256c135f-3d6c-4daa-87a5-b4572a2c905f.jpg",
+	"installation": "https://github.com/Akascape/CTkListbox",
+	"tags": ["customtkinter", "listbox",  "combobox", "optionmenu", "menu"]
 	}
 
 }
