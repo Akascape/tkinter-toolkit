@@ -19,11 +19,12 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 Requirements: `customtkinter`, `PIL`
 
 ## Features
-- Easily search new tkinter libraries
+- Explore new tkinter libraries
+- Better UI development in tkinter
 - Installation links are provided
 - Preview images of the library
 - Detailed description provided
-- Database can be updated for new packages
+- Database can also be updated for new packages
 
 ## Screenshots
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
