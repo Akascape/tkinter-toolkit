@@ -529,6 +529,20 @@
 	"image_url": "https://user-images.githubusercontent.com/89206401/248234441-5f16df2c-0dce-42a6-ac1c-78664314a35a.jpg",
 	"installation": "https://github.com/Akascape/TkVisualizer",
 	"tags": ["audio visualizer", "music visualizer",  "visualizer", "tkvisualizer", "animation", "sound"]
+	},
+
+"CustomTkinterTitlebar":{
+	"name": "customtkintertitlebar",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Customizable titlebar for windows",
+	"full_desc": "This is a project that can help you to get a custom titlebar. Different types of widgets can be added to the titlebar",
+	"author": "XiaoBaiYun",
+	"highlights": ["Insert components to titlebar", "Custom minsize & maxsize buttons", "Different window themes: mica, fluent, blur", "Tabview widget in the titlebar"],
+	"repo_url": "https://github.com/littlewhitecloud/CustomTkinterTitlebar/",
+	"image_url": "https://user-images.githubusercontent.com/71159641/244681503-30f7c785-d189-4865-8095-384259e9b419.png",
+	"installation": "pip install CustomTkinterTitlebar",
+	"tags": ["CTkTitlebar", "customtkinter titlebar",  "titlebar", "header", "custom titlebar"]
 	}
 
 }
