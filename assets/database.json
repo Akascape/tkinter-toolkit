@@ -515,6 +515,20 @@
 	"image_url": "https://user-images.githubusercontent.com/89206401/247524994-256c135f-3d6c-4daa-87a5-b4572a2c905f.jpg",
 	"installation": "https://github.com/Akascape/CTkListbox",
 	"tags": ["customtkinter", "listbox",  "combobox", "optionmenu", "menu"]
+	},
+
+"TkVisualizer": {
+	"name": "tkvisualizer",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Audio Visualizer widget",
+	"full_desc": "Simple audio visualizer widget for tkinter.",
+	"author": "Akascape",
+	"highlights": ["Gradient Frame", "Customizable options", "currently in beta stage..."],
+	"repo_url": "https://github.com/Akascape/TkVisualizer",
+	"image_url": "https://user-images.githubusercontent.com/89206401/248234441-5f16df2c-0dce-42a6-ac1c-78664314a35a.jpg",
+	"installation": "https://github.com/Akascape/TkVisualizer",
+	"tags": ["audio visualizer", "music visualizer",  "visualizer", "tkvisualizer", "animation"]
 	}
 
 }
