@@ -490,17 +490,17 @@
 	},
 	
 "Py-Window-Styles": {
-	"name": "pywindowstyles",
-	"type": "manual",
+	"name": "pywinstyles",
+	"type": "pip",
 	"icon": "pkg",
-	"desc": "Windows 11 themes",
+	"desc": "Windows 11 window themes",
 	"full_desc": "Customize your tkinter window with awesome built-in windows header styles and themes. \nThis is only for windows 11",
 	"author": "Akascape",
 	"highlights": ["Acrylic theme (blurred window)", "Aero Theme","Custom header colors", "Transparent themes","Windows 7 retro theme","dark header themes", "More customizable window options"],
 	"repo_url": "https://github.com/Akascape/py-window-styles",
 	"image_url": "https://user-images.githubusercontent.com/89206401/246872839-986062c0-30a0-4289-929a-e5e2440b8dd1.jpg",
-	"installation": "https://github.com/Akascape/py-window-styles",
-	"tags": ["themes","pywindowstyles", "windows11", "styles","blurred","acrylic","headercolor", "titlebar"]
+	"installation": "pip install pywinstyles",
+	"tags": ["themes","pywindowstyles", "pywinstyles", "windows11", "styles","blurred","acrylic","headercolor", "titlebar"]
 	},
 	
 "CTkListbox": {
