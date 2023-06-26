@@ -222,6 +222,34 @@
 	"installation": "pip install tkcalendar",
 	"tags": ["tkcalendar","calendar", "data", "data entry", "date", "time"]
 	},
+
+"ttkwidgets": {
+	"name": "ttkwidgets",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Widget collection",
+	"full_desc": "A collection of widgets for Tkinter's ttk extensions by various authors.",
+	"author": "The TkinterEP team",
+	"highlights": ["Over 20 unique widgets included", "Lots of customizable options", "Timeline widget", "Font chooser", "Color chooser", "Autocomplete widgets", "Table widget", "Tooltips", "Calender widget", "Scale widget", "Checkbox treeview", "more..."],
+	"repo_url": "https://github.com/TkinterEP/ttkwidgets",
+	"image_url": "https://user-images.githubusercontent.com/89206401/248753956-16277ff0-a754-46ce-b697-d50f4fcf4891.jpg",
+	"installation": "pip install ttkwidgets",
+	"tags": ["widgets", "ttkwidgets", "tkinterep", "timeline", "colorchooser", "calender", "table", "tooltip", "link", "font", "treeview", "autocomplete"]
+	},
+
+"ttkthemes": {
+	"name": "ttkthemes",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Theme collection for tkinter.ttk",
+	"full_desc": "A group of themes for the ttk extenstions for Tkinter gathered together by @RedFantom and created by various authors.",
+	"author": "The TkinterEP team",
+	"highlights": ["Large number of themes included", "Both modern and retro themes", "Customize themes on the fly"],
+	"repo_url": "https://github.com/TkinterEP/ttkthemes",
+	"image_url": "https://user-images.githubusercontent.com/77941087/248731276-5a9afbc8-c4f0-48e5-af17-d4116fab3245.png",
+	"installation": "pip install ttkthemes",
+	"tags": ["themes", "ttkthemes", "tkinterep","tkinter themes"]
+	},
 	
 "TkTerminal": {
 	"name": "tkterminal",
