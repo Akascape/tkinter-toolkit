@@ -5,7 +5,7 @@
   <h1 align="center">Tkinter-Toolkit</h1>
 </div>
 
-Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget for your application. If you are planning to create a piece of software or want to implement a GUI for your python scripts, then tkinter is still one of the best options out there. Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI. The community is also growing and people are making new custom widgets for the library.
+Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget for your application. If you are planning to create a new piece of software or want to implement a GUI for your python scripts, then tkinter is still one of the best options out there. Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI. The community is also great tbh.
 
 
 **Tkinter-Toolkit is a small application that helps you find new tkinter/customtkinter widget libraries created by some awesome people.** There are lots of libraries and widgets listed in this app. 
@@ -32,7 +32,7 @@ Requirements: `customtkinter`, `PIL`
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/3349b82d-9b92-4a26-82e5-9e54f3ebaf60)
 
 
-Note: This app is not a download manager for the libaries, it just shows the collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database.**
+Note: This app is not a download manager for the libaries, it just shows the collection of those libraries which you can view and install manually. **All the official author names, repository links and description are written in the database. _Any type of changes in the database is possible_**
 
 Hope it will help tkinter users and also the respected repository owners. 
 
