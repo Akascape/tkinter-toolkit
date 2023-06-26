@@ -222,6 +222,34 @@
 	"installation": "pip install tkcalendar",
 	"tags": ["tkcalendar","calendar", "data", "data entry", "date", "time"]
 	},
+
+"ttkwidgets": {
+	"name": "ttkwidgets",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Widget collection",
+	"full_desc": "A collection of widgets for Tkinter's ttk extensions by various authors.",
+	"author": "The TkinterEP team",
+	"highlights": ["Over 20 widgets included", "Lots of customizable options"],
+	"repo_url": "https://github.com/TkinterEP/ttkwidgets",
+	"image_url": "",
+	"installation": "pip install ttkwidgets",
+	"tags": ["widgets", "ttkwidgets", "tkinterep"]
+	},
+
+"ttkthemes": {
+	"name": "ttkthemes",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Theme collection for tkinter.ttk",
+	"full_desc": "A group of themes for the ttk extenstions for Tkinter gathered together by @RedFantom and created by various authors.",
+	"author": "The TkinterEP team",
+	"highlights": ["Large number of themes included", "Both modern and retro themes", "Customize themes on the fly"],
+	"repo_url": "https://github.com/TkinterEP/ttkthemes",
+	"image_url": "",
+	"installation": "pip install ttkthemes",
+	"tags": ["themes", "ttkthemes", "tkinterep"]
+	},
 	
 "TkTerminal": {
 	"name": "tkterminal",
