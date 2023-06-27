@@ -251,6 +251,20 @@
 	"tags": ["themes", "ttkthemes", "tkinterep","tkinter themes"]
 	},
 	
+"TkTerm": {
+	"name": "tkterm",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Full console emulator",
+	"full_desc": "A fully functional terminal emulator built on Tkinter library - perform all basic commands of a terminal. \nThe Terminal is implemented as a Frame widget and can easily be integrated to other Tkinter application.",
+	"author": "Dhanoo Surasarang",
+	"highlights": ["All terminal commands can be passed", "Fully customisable",  "Fully featured", "Built-in settings", "Multiple tabs"],
+	"repo_url": "https://github.com/dhanoosu/TkTerm",
+	"image_url": "https://repository-images.githubusercontent.com/451250393/87f50d40-fbaa-4a1d-b7e6-00eb0da2fdfb",
+	"installation": "pip install tkterm",
+	"tags": ["tkterminal","terminal", "console", "command line", "command prompt"]
+	},
+	
 "TkTerminal": {
 	"name": "tkterminal",
 	"type": "pip",
