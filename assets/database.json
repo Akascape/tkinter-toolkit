@@ -585,6 +585,20 @@
 	"image_url": "https://user-images.githubusercontent.com/71159641/244681503-30f7c785-d189-4865-8095-384259e9b419.png",
 	"installation": "pip install CustomTkinterTitlebar",
 	"tags": ["CTkTitlebar", "customtkinter titlebar",  "titlebar", "header", "custom titlebar"]
+	},
+
+"CTkXYFrame": {
+	"name": "ctkxyframe",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Better scrollable frame",
+	"full_desc": "A better scrollable frame for customtkinter with both x and y scrollability.",
+	"author": "Akascape",
+	"highlights": ["Both x and y scrollability at the same time", "Proper mousewheel bindings", "Dynamic scrollbars, hides automatically when reaches full size", "Full customisability just like ctkscrollable frame"],
+	"repo_url": "https://github.com/Akascape/CTkXYFrame",
+	"image_url": "https://github-production-user-asset-6210df.s3.amazonaws.com/89206401/250564194-05298e8d-cc9d-48ca-8b27-9943176d5c1a.jpg",
+	"installation": "https://github.com/Akascape/CTkXYFrame",
+	"tags": ["customtkinter", "ctkxyframe",  "ctkscrollableframe", "scrollableframe", "frame"]
 	}
 
 }
