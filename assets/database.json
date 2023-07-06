@@ -547,7 +547,7 @@
 	
 "CTkListbox": {
 	"name": "ctklistbox",
-	"type": "manual",
+	"type": "pip",
 	"icon": "ctk",
 	"desc": "Custom Listbox widget",
 	"full_desc": "A quick and modern listbox widget for customtkinter.",
@@ -555,7 +555,7 @@
 	"highlights": ["Similar to the tkinter listbox widget", "Configurable options"],
 	"repo_url": "https://github.com/Akascape/CTkListbox",
 	"image_url": "https://user-images.githubusercontent.com/89206401/247524994-256c135f-3d6c-4daa-87a5-b4572a2c905f.jpg",
-	"installation": "https://github.com/Akascape/CTkListbox",
+	"installation": "pip install CTkListbox",
 	"tags": ["customtkinter", "listbox",  "combobox", "optionmenu", "menu"]
 	},
 
