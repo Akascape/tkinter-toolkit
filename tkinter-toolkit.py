@@ -1,7 +1,7 @@
 """
 Tkinter Toolkit
 Author: Akash Bora
-Version: 0.1
+Version: 0.2
 License: MIT
 Homepage: https://github.com/Akascape/tkinter-toolkit
 """
@@ -22,7 +22,8 @@ customtkinter.set_default_color_theme("dark-blue")
 class App(customtkinter.CTk):
 
     DIRPATH = os.path.join(os.path.dirname(__file__))
-                 
+    LOADED_IMAGES = {}
+    
     def __init__(self):
         super().__init__()
         
@@ -183,11 +184,14 @@ class App(customtkinter.CTk):
     def get_image(self, name):
         """ download the image preview """
         try:
-            file = urlopen(self.data[name]["image_url"])
-            raw_data = file.read()
-            file.close()
-            image = io.BytesIO(raw_data)
-            return image
+            if name not in self.LOADED_IMAGES:
+                file = urlopen(self.data[name]["image_url"])
+                raw_data = file.read()
+                file.close()
+                image = Image.open(io.BytesIO(raw_data))
+                file_data = customtkinter.CTkImage(image, size=(self.height, self.height*image.size[1]/image.size[0]))
+                self.LOADED_IMAGES[name] = file_data
+            return self.LOADED_IMAGES[name]
         except:
             return None
         
@@ -211,8 +215,7 @@ class App(customtkinter.CTk):
         if self.data[name]["image_url"]:
             file_data = self.get_image(name)
             if file_data:
-                image = Image.open(file_data)
-                image_label.configure(image=customtkinter.CTkImage(image, size=(self.height, self.height*image.size[1]/image.size[0])))
+                image_label.configure(image=file_data)
         
         label_name = customtkinter.CTkLabel(scrollable_info, text=name, anchor="w", font=(self.font, 25, "bold"))
         label_name.pack(fill="x", padx=10)
