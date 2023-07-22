@@ -208,6 +208,20 @@
 	"installation": "pip install tkchart",
 	"tags": ["tkchart","ctkchart", "chart", "graph", "plot"]
 	},
+
+"CTkDataVisualizingWidgets": {
+	"name": "ctkdatavisualizingwidgets",
+	"type": "manual",
+	"icon": "ctk",
+        "desc": "Custom calendar, graph and chart widgets",
+	"full_desc": "A library focused on displaying data related operations.",
+	"author": "ZikPin",
+	"highlights": ["Modern Calendar widget", "Chart widget", "Graph widgets", "Fully customizable"],
+	"repo_url": "https://github.com/ZikPin/-CTkDataVisualizingWidgets",
+	"image_url": "https://user-images.githubusercontent.com/65452275/255221043-e40ea973-77d0-42c4-b740-535c15ad5748.png",
+	"installation": "https://github.com/ZikPin/-CTkDataVisualizingWidgets",
+	"tags": ["calendar", "chart", "graph", "data visualizing", "ctkdatavisualizingwidgets", "widgets"]
+	},
 	
 "TkCalendar": {
 	"name": "tkcalendar",
