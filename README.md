@@ -8,7 +8,7 @@
 Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget for your application. If you are planning to create a new piece of software or want to implement a GUI for your python scripts, then tkinter is still one of the best options out there. Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI. The community is also great tbh.
 
 
-**Tkinter-Toolkit is a small application that helps you find new tkinter/customtkinter widget libraries created by some awesome people.** There are lots of libraries and widgets listed in this app. 
+**Tkinter-Toolkit is a small application that helps you find tkinter/customtkinter widget libraries and helpful tools created by some awesome people.** There are lots of libraries listed in this application. So start exploring them one by one! 
 
 <div align="center">
   
@@ -16,15 +16,15 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
   
 </div>
 
-Requirements: `customtkinter`, `PIL`
+Requirements: `customtkinter` and `PIL`
 
 ## Features
-- Explore new tkinter libraries
+- Explore new tkinter/customtkinter addon libraries
 - Better UI development in tkinter
 - Installation links are provided
 - Preview images of the library
-- Detailed description provided
-- Update database and view new packages
+- Detailed descriptions provided
+- Update database and view new packages if available
 
 ## Screenshots
 ![Screenshot](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
@@ -36,7 +36,7 @@ Note: This app is not a download manager for the libaries, it just shows the col
 
 Hope it will help tkinter users and also the respected repository owners. 
 
-_If you have made or found some new tkinter library, then share it here!_
+_If you have found or made some new tkinter based widget library, then please share it here!_
 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
 
