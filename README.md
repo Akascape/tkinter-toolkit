@@ -36,7 +36,7 @@ Note: This app is not a download manager for the libaries, it just shows the col
 
 Hope it will help tkinter users and also the respected repository owners. 
 
-_If you have found or made some new tkinter based widget library, then please share it here!_
+_If you have found or made a new tkinter based widget library, then please share it here!_
 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
 
