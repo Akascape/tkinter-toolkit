@@ -334,6 +334,20 @@
 	"installation": "pip install chlorophyll",
 	"tags": ["tkcode", "code editor", "coding", "editor", "syntax", "console", "code view", "text"]
 	},
+
+"TkLineNums": {
+	"name": "tklinenums",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Line numbering widget",
+	"full_desc": "TkLineNums is a simple line numbering widget for Python's tkinter GUI library. It is directly connects to a Text widget and even supports ttk themes through the set_to_ttk_style method.",
+	"author": "Moosems",
+	"highlights": ["Clicking on line numbers will set the insert to the beginning of the line.", "Shift clicking will select all text from the end of the line clicked by cursor and the insert position.", "Can handle elided lines (elided lines are lines that are not visible in the text widget).", "Supports ttk themes and allows easy color customization.", "Supports click dragging for selection." ],
+	"repo_url": "https://github.com/Moosems/TkLineNums",
+	"image_url": "https://raw.githubusercontent.com/Moosems/TkLineNums/main/misc/TkLineNumsPhoto.png",
+	"installation": "pip install tklinenums",
+	"tags": ["tklinenums","linenumbers", "number", "widget"]
+	},
 	
 "TkSheet": {
 	"name": "tksheet",
