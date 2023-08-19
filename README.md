@@ -12,8 +12,8 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 
 <div align="center">
   
-[<img src="https://img.shields.io/badge/DOWNLOAD-Tkinter_Toolkit-informational?&color=cyan&logo=Python&logoColor=yellow&style=for-the-badge"  width="300">](https://github.com/Akascape/tkinter-toolkit/archive/refs/heads/main.zip)
-  
+[<img src="https://img.shields.io/badge/DOWNLOAD-Tkinter_Toolkit-informational?&color=38568b&logo=Python&logoColor=yellow" width="300">](https://github.com/Akascape/tkinter-toolkit/archive/refs/heads/main.zip)
+
 </div>
 
 Requirements: `customtkinter` and `PIL`
@@ -39,6 +39,5 @@ Hope it will help tkinter users and also the respected repository owners.
 _If you have found or made a new tkinter based widget library, then please share it here!_
 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
-
-[![forthebadge made-with-python](http://ForTheBadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
-[<img src="https://img.shields.io/badge/APP_LICENSE-MIT-informational?&color=green&style=for-the-badge" width="150">](https://github.com/Akascape/tkinter-toolkit/blob/main/LICENSE)
+[<img src="https://img.shields.io/badge/Made_With-Tkinter-informational?&color=df0001&style=for-the-badge" width="200">](https://docs.python.org/3/library/tkinter.html)
+[<img src="https://img.shields.io/badge/APP_LICENSE-MIT-informational?&color=green&style=for-the-badge" width="180">](https://github.com/Akascape/tkinter-toolkit/blob/main/LICENSE)
