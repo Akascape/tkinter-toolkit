@@ -627,6 +627,20 @@
 	"image_url": "https://github-production-user-asset-6210df.s3.amazonaws.com/89206401/250564194-05298e8d-cc9d-48ca-8b27-9943176d5c1a.jpg",
 	"installation": "https://github.com/Akascape/CTkXYFrame",
 	"tags": ["customtkinter", "ctkxyframe",  "ctkscrollableframe", "scrollableframe", "frame"]
+	},
+	
+"Tkinter Quick Layout": {
+	"name": "Tkinter_Quick_Layout",
+	"type": "manual",
+	"icon": "pkg",
+	"desc": "Create complex grid layouts for reference",
+	"full_desc": "This repository will help you create complex layouts when building Tkinter and CustomTkinter application",
+	"author": "EasyDevv",
+	"highlights": ["Easily take reference while making any new layout", "Method: Grid", "Different controls and options", "Copy data to clipboard"],
+	"repo_url": "https://github.com/EasyDevv/Tkinter_Quick_Layout",
+	"image_url": "https://user-images.githubusercontent.com/11148818/276195554-35887086-a3fd-48c6-807f-6a41049fafb8.png",
+	"installation": "https://github.com/EasyDevv/Tkinter_Quick_Layout",
+	"tags": ["customtkinter", "tkinter",  "frame", "layout maker", "tkinter quick layout", "quicklayout", "design", "tools","gui", "app"]
 	}
 
 }
