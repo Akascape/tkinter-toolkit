@@ -99,16 +99,16 @@
 
 "CTkMenuBar": {
 	"name": "ctkmenubar",
-	"type": "manual",
+	"type": "pip",
 	"icon": "ctk",
-	"desc": "Custom ToolBar widget",
+	"desc": "Custom Toolbar widget",
 	"full_desc": "Modern menu bar widget library for customtkinter.",
 	"author": "Akascape",
-	"highlights": ["Custom dropdown", "Add submenus",  "Menu bar in title", "Add cascades"],
+	"highlights": ["Modern dropdown menu", "Add submenus",  "Menu in title bar", "Add cascades", "Add separators"],
 	"repo_url": "https://github.com/Akascape/CTkMenuBar",
 	"image_url": "https://user-images.githubusercontent.com/89206401/241711282-02c512b2-557f-4d59-86e0-a6eb9da3696c.png",
-	"installation": "https://github.com/Akascape/CTkMenuBar",
-	"tags": ["ctkmenubar","menubar", "titlebar", "dropdownmenu"]
+	"installation": "pip install CTkMenuBar",
+	"tags": ["ctkmenubar","menubar", "titlebar", "dropdownmenu","toolbar"]
 	},
 
 "CTkPopupKeyboard":{
