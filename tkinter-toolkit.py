@@ -33,10 +33,12 @@ class App(customtkinter.CTk):
         self.geometry(f"{self.width}x{self.height}")
         self.minsize(500,500)
         self.bind("<1>", lambda event: event.widget.focus_set())
-        self.iconpath = ImageTk.PhotoImage(file=os.path.join("assets","logo.png"))
-        self.wm_iconbitmap()
-        self.iconphoto(False, self.iconpath)
-        
+        try:
+           self.iconpath = ImageTk.PhotoImage(file=os.path.join("assets","logo.png"))
+           self.wm_iconbitmap()
+           self.iconphoto(False, self.iconpath)
+        except:
+           pass
         self.frame = customtkinter.CTkFrame(master=self)
         self.frame.pack(expand=True, fill="both", padx=10, pady=10)
 
