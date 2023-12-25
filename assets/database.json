@@ -641,6 +641,20 @@
 	"image_url": "https://user-images.githubusercontent.com/11148818/276195554-35887086-a3fd-48c6-807f-6a41049fafb8.png",
 	"installation": "https://github.com/EasyDevv/Tkinter_Quick_Layout",
 	"tags": ["customtkinter", "tkinter",  "frame", "layout maker", "tkinter quick layout", "quicklayout", "design", "tools","gui", "app"]
-	}
+	},
+
+"CTkMeter": {
+        "name": "CTkMeter",
+        "type": "manual",
+        "icon": "ctk",
+        "desc": "Create circular loading progress bar",
+        "full_desc": "A cool and modern looking meter widget with hover animation for CustomTkinter library.",
+        "author": "Anand Krishnan",
+        "highlights": ["Easily add a circular progress bar widget", "Set loading percentage", "Hover effect", "Adjust animation"],
+        "repo_url": "https://github.com/anamite/ctk_widget",
+        "image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/77412636/0adcecfe-d395-4b3f-84d8-9002324d730c",
+        "installation": "https://github.com/anamite/ctk_widget",
+        "tags": [,"ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
+        }
 
 }
