@@ -644,17 +644,17 @@
 	},
 
 "CTkMeter": {
-        "name": "CTkMeter",
-        "type": "manual",
-        "icon": "ctk",
-        "desc": "Create circular loading progress bar",
-        "full_desc": "A cool and modern looking meter widget with hover animation for CustomTkinter library.",
-        "author": "Anand Krishnan",
-        "highlights": ["Easily add a circular progress bar widget", "Set loading percentage", "Hover effect", "Adjust animation"],
-        "repo_url": "https://github.com/anamite/ctk_widget",
-        "image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/77412636/0adcecfe-d395-4b3f-84d8-9002324d730c",
-        "installation": "https://github.com/anamite/ctk_widget",
-        "tags": [,"ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
-        }
+ "name": "CTkMeter",
+ "type": "manual",
+ "icon": "ctk",
+ "desc": "Circular progress bar",
+ "full_desc": "A cool and modern looking meter widget with hover animation for CustomTkinter library.",
+ "author": "Anand Krishnan",
+ "highlights": ["Easily add a circular progress bar widget", "Set loading percentage", "Hover effect", "Adjust animation"],
+ "repo_url": "https://github.com/anamite/ctk_widget",
+ "image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/77412636/0adcecfe-d395-4b3f-84d8-9002324d730c",
+ "installation": "https://github.com/anamite/ctk_widget",
+ "tags": [,"ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
+ }
 
 }
