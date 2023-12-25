@@ -654,6 +654,6 @@
 	"repo_url": "https://github.com/anamite/ctk_widget",
 	"image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/77412636/0adcecfe-d395-4b3f-84d8-9002324d730c.png",
 	"installation": "https://github.com/anamite/ctk_widget",
-	"tags": [,"ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
+	"tags": ["ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
 	}
 }
