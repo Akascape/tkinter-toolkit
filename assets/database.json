@@ -652,7 +652,7 @@
 	"author": "Anand Krishnan",
 	"highlights": ["Easily add a circular progress bar widget", "Set loading percentage", "Hover effect", "Adjust animation"],
 	"repo_url": "https://github.com/anamite/ctk_widget",
-	"image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/77412636/0adcecfe-d395-4b3f-84d8-9002324d730c.png",
+	"image_url": "https://github.com/anamite/ctk_widget/assets/77412636/d53b3537-45a5-4b05-8d21-a70e61a09b45",
 	"installation": "https://github.com/anamite/ctk_widget",
 	"tags": ["ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
 	}
