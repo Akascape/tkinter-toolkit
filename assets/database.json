@@ -166,7 +166,21 @@
 	"installation": "https://github.com/Akascape/CTkThemeMaker",
 	"tags": ["themes", "thememaker",  "customtkinter", "customtkinter themes", "colors"]
 	},
-
+	
+"CTkDesigner": {
+	"name": "ctkdesigner",
+	"type": "manual",
+	"icon": "pkg",
+	"desc": "Easy GUI designer for CTk",
+	"full_desc": "No code window designer for customtkinter, just drag and drop and save your time.",
+	"author": "Akascape",
+	"highlights": ["DRAG & DROP widgets", "Move widgets with mouse",  "Adjust all parameters", "Precise place method", "13 CTk widgets", "Create and preview themes", "Export app to .py", "Save/Open created templates", "All required functionalities and shortcuts added"],
+	"repo_url": "https://github.com/Akascape/CTkDesigner-Support",
+	"image_url": "https://github.com/Akascape/CTkDesigner-Support/assets/89206401/6435f49b-f7d0-4cba-8190-73cd71d77ac3",
+	"installation": "https://github.com/Akascape/CTkDesigner-Support",
+	"tags": ["themes", "ctkdesigner",  "customtkinter", "draganddrop", "designer", "automatic", "WYSIWYG", "guidesign"]
+	},
+	
 "CTkThemeBuilder": {
 	"name": "ctkthemebuilder",
 	"type": "manual",
