@@ -399,8 +399,8 @@
 	"full_desc": "Implementation of a slider widget using tkinter, multiple slider supported.",
 	"author": "MengxLi",
 	"highlights": ["Multi-headed sliders", "Customisable slider"],
-	"repo_url": "https://github.com/pmgagne/tkinterdnd2",
-	"image_url": "https://camo.githubusercontent.com/fe742c09edaec51969d3d5de63e32427fdce2a1a53eb8f10b91283b947903806/687474703a2f2f692e6962622e636f2f7a5259503946762f416e6e6f746174696f6e2d323032302d30322d31332d3137323931342e706e67",
+	"repo_url": "https://github.com/MenxLi/tkSliderWidget",
+	"image_url": "http://i.ibb.co/zRYP9Fv/Annotation-2020-02-13-172914.png",
 	"installation": "https://github.com/MenxLi/tkSliderWidget",
 	"tags": ["tkslider", "sliders", "multi slider", "scale", "points"]
 	}, 
