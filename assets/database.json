@@ -669,5 +669,33 @@
 	"image_url": "https://github.com/anamite/ctk_widget/assets/77412636/d53b3537-45a5-4b05-8d21-a70e61a09b45",
 	"installation": "https://github.com/anamite/ctk_widget",
 	"tags": ["ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
+	},
+	
+"Popup Menu": {
+	"name": "popup menu",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Right click Menu",
+	"full_desc": "A custom right click menu class for customtkinter.",
+	"author": "Akascape",
+	"highlights": ["Right click menu", "Hides with outside click", "Rounded corners", "Customizable options", "No installation required"],
+	"repo_url": "https://www.akascape.com/coding/how-to-make-a-popup-menu-in-customtkinter",
+	"image_url": "https://github.com/TomSchimansky/CustomTkinter/assets/89206401/b66e6683-7caf-46cc-8a3e-2fed9c584c9a",
+	"installation": "https://www.akascape.com/coding/how-to-make-a-popup-menu-in-customtkinter",
+	"tags": ["popupmenu", "floatingwindow", "rightclick", "menu", "options", "roundedcorners"]
+	},
+
+"Full Custom Window": {
+	"name": "customwindow",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "custom window style",
+	"full_desc": "A custom window class with new header style for windows 10/11 with rounded corners",
+	"author": "Akascape",
+	"highlights": ["Drag window precisely", "Customize title bar", "Resizable window", "Icon image", "Rounded corners"],
+	"repo_url": "https://www.akascape.com/coding/full-python-window-template-with-new-header",
+	"image_url": "https://user-images.githubusercontent.com/89206401/205429162-b89b06d9-5db5-4844-b8ee-903a193e9463.jpg",
+	"installation": "https://www.akascape.com/coding/full-python-window-template-with-new-header",
+	"tags": ["window", "macos", "style", "customwindow"]
 	}
 }
