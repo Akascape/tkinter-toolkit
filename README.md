@@ -5,7 +5,7 @@
   <h1 align="center">Tkinter-Toolkit</h1>
 </div>
 
-Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget you want. If you are planning to create a new piece of software or want to implement a GUI for your python scripts, then tkinter is still one of the best options out there. Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI. The community is also very kind and helpful.
+Tkinter is a great library for UI development in python. Specially the canvas widget of tkinter lets you make any custom widget you want. If you are planning to create a new piece of software or want to implement a GUI for your python scripts, then tkinter is still one of the best options out there. Moreover, after the arrival of [**`customtkinter`**](https://github.com/TomSchimansky/CustomTkinter), it is super easy to create a modern user-friendly UI. The community is also very kind and helpful. Also note that both customtkinter and tkinter libraries can be used together in one project.
 
 
 **Tkinter-Toolkit is a small application that helps you find tkinter/customtkinter widget libraries and useful tools created by some awesome people.** There are lots of libraries listed in this application. So start exploring them one by one and develop great projects! 
