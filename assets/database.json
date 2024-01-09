@@ -409,14 +409,28 @@
 	"name": "animatedgif",
 	"type": "manual",
 	"icon": "tk",
-	"desc": "GIF widget",
+	"desc": "Tk GIF widget",
 	"full_desc": "A very simple class (subclass of tkinter.Label) that displays an animated GIF in a label and either runs the animation in a separate thread or using tkinter's after() method.",
 	"author": "OJ Skjelten",
-	"highlights": ["Show gifs in tkinter window", "Customisable slider"],
+	"highlights": ["Show gifs in tkinter window"],
 	"repo_url": "https://github.com/olesk75/AnimatedGIF",
 	"image_url": null,
 	"installation": "https://github.com/olesk75/AnimatedGIF",
 	"tags": ["gifs", "animation", "label"]
+	},
+
+"CTkGif": {
+	"name": "CTkGIF",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Gif Widget for CustomTkinter",
+	"full_desc": "Gif Widget for CustomTkinter",
+	"author": "IfTrueEqualsEqualsTrue",
+	"highlights": ["Show gifs in customtkinter window"],
+	"repo_url": "https://github.com/IfTrueEqualsEqualsTrue/CTkGif",
+	"image_url": null,
+	"installation": "https://github.com/IfTrueEqualsEqualsTrue/CTkGif",
+	"tags": ["gifs", "animation", "label", "ctkgif"]
 	},
 
 "AwesomeTkinter": {
