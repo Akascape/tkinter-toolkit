@@ -711,5 +711,19 @@
 	"image_url": "https://user-images.githubusercontent.com/89206401/205429162-b89b06d9-5db5-4844-b8ee-903a193e9463.jpg",
 	"installation": "https://www.akascape.com/coding/full-python-window-template-with-new-header",
 	"tags": ["window", "macos", "style", "customwindow"]
+	},
+
+"Tk-to-CTk": {
+	"name": "tkinter-to-customtkinter",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "conversion tool",
+	"full_desc": "Convert your tkinter scripts and guis to custom tkinter with this command line tool. Comes with graphical user interface option and can determine programming paradigm and import structure to keep consistency across files",
+	"author": "Donny",
+	"highlights": ["Convert tkinter app to ctk"],
+	"repo_url": "https://github.com/Donny-GUI/tkinter-to-customtkinter-converter",
+	"image_url": "https://user-images.githubusercontent.com/108424001/226063288-66da2f57-f5b7-49f1-bdd5-f465e963b125.png",
+	"installation": "https://github.com/Donny-GUI/tkinter-to-customtkinter-converter",
+	"tags": ["tkintertocustomtkinter", "tktoctk", "convertor","tools"]
 	}
 }
