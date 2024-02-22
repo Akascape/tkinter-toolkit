@@ -725,5 +725,19 @@
 	"image_url": "https://user-images.githubusercontent.com/108424001/226063288-66da2f57-f5b7-49f1-bdd5-f465e963b125.png",
 	"installation": "https://github.com/Donny-GUI/tkinter-to-customtkinter-converter",
 	"tags": ["tkintertocustomtkinter", "tktoctk", "convertor","tools"]
+	},
+	
+"CTkComponents": {
+	"name": "CTkComponents",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "usefull ui elements",
+	"full_desc": "CTk Components is a collection of widgets and utilities designed as extensions or add-ons for customtkinter",
+	"author": "rudymohammadbali",
+	"highlights": ["CTkAlert", "CTkBanner", "CTkNotification", "CTkLoader", "CTkPopup", "CTkProgressPopup", "CTkTreeVew"]
+	"repo_url": "https://github.com/rudymohammadbali/ctk_components",
+	"image_url": "",
+	"installation": "https://github.com/rudymohammadbali/ctk_components/",
+	"tags": ["customtkinter", "ctkcomponents", "popupmenu","banner","notification","loader","gif","progress","treeview","messagebox"]
 	}
 }
