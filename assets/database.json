@@ -600,7 +600,21 @@
 	"installation": "pip install pywinstyles",
 	"tags": ["themes","pywindowstyles", "pywinstyles", "windows11", "styles","blurred","acrylic","headercolor", "titlebar"]
 	},
-	
+
+"hPyT": {
+	"name": "hPyT",
+	"type": "pip",
+	"icon": "pkg",
+	"desc": "Manipulate window titlebar",
+	"full_desc": "A package to manipulate window titlebar in GUI applications. Supports Both Windows 11 and 10",
+	"author": "Zingzy",
+	"highlights": ["Hide/Unhide both Maximize and Minimize Buttons", "Hide/Unhide All Buttons", "Enable/Disable Minimize Button", "Enable/Disable Maximize Button", "Flashing Window"],
+	"repo_url": "https://github.com/zingzy/hPyT",
+	"image_url": "https://github.com/Akascape/tkinter-toolkit/assets/89206401/0b03c50d-a1e1-4ae3-a666-427e81694464",
+	"installation": "pip install hPyT",
+	"tags": ["hpyt", "windows", "titlebar","buttons","maximise","minimize","flash","hide"]
+	},
+
 "CTkListbox": {
 	"name": "ctklistbox",
 	"type": "pip",
@@ -734,7 +748,7 @@
 	"desc": "usefull ui elements",
 	"full_desc": "CTk Components is a collection of widgets and utilities designed as extensions or add-ons for customtkinter",
 	"author": "rudymohammadbali",
-	"highlights": ["CTkAlert", "CTkBanner", "CTkNotification", "CTkLoader", "CTkPopup", "CTkProgressPopup", "CTkTreeVew"],
+	"highlights": ["CTkAlert", "CTkBanner", "CTkNotification", "CTkLoader", "CTkPopup", "CTkProgressPopup", "CTkTreeVew", "More..."],
 	"repo_url": "https://github.com/rudymohammadbali/ctk_components",
 	"image_url": "",
 	"installation": "https://github.com/rudymohammadbali/ctk_components/",
