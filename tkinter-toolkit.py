@@ -1,10 +1,11 @@
 """
 Tkinter Toolkit
 Author: Akash Bora
-Version: 0.2
+Version: 0.3
 License: MIT
 Homepage: https://github.com/Akascape/tkinter-toolkit
 """
+
 try:
     import customtkinter
     from PIL import Image, ImageTk
@@ -15,9 +16,7 @@ try:
     import webbrowser
     import sys
     import pkg_resources
-    import hPyT
     import threading
-    import pyperclip
 except Exception as e:
     import os
     os.system("pip install -r requirements.txt")
@@ -51,8 +50,12 @@ class App(customtkinter.CTk):
 
         self.frame.columnconfigure(1, weight=1)
         self.frame.rowconfigure(2, weight=1)
-        self.font = "Segoe UI"#customtkinter.ThemeManager.theme["CTkFont"]["family"]
 
+        if sys.platform.startswith("win"):
+            self.font = "Segoe UI"
+        else:
+            self.font = customtkinter.ThemeManager.theme["CTkFont"]["family"]
+            
         self.label = customtkinter.CTkLabel(master=self.frame, text="Tkinter Toolkit", font=(self.font,25,"bold"))
         self.label.grid(row=0, column=0, padx=20, pady=10)
 
@@ -165,13 +168,15 @@ class App(customtkinter.CTk):
         about_window = customtkinter.CTkToplevel(self)
         about_window.title("About")
         about_window.transient(self)
-        about_window.geometry("350x250")
+
+        spawn_x = int(self.winfo_width() * .5 + self.winfo_x() - .5 * 350 + 7)
+        spawn_y = int(self.winfo_height() * .5 + self.winfo_y() - .5 * 250 + 20)
+ 
+        about_window.geometry(f"350x250+{spawn_x}+{spawn_y}")
         about_window.resizable(False, False)
         about_window.protocol("WM_DELETE_WINDOW", close_toplevel)
         about_window.wm_iconbitmap()
         about_window.after(300, lambda: about_window.iconphoto(False, self.iconpath))
-        
-        hPyT.window_frame.center_relative(self, about_window)
 
         label_title = customtkinter.CTkLabel(about_window, text="Tkinter Toolkit", font=(self.font,25,"bold"))
         label_title.pack(fill="x", padx=10, pady=15)
@@ -225,8 +230,7 @@ class App(customtkinter.CTk):
 
             return data["stargazers_count"], data["owner"]["avatar_url"]
         except Exception as e:
-            print(f"An error occurred: {e}")
-            return None
+            return None, None
 
     def open_info_window(self, name):
         """ open the detail panel for the package """
@@ -234,12 +238,12 @@ class App(customtkinter.CTk):
         toplevel = customtkinter.CTkToplevel(self)
         toplevel.title(name)
         toplevel.transient(self)
-        toplevel.geometry(f"{self.width-150}x{self.height-150}")
+        spawn_x = int(self.winfo_width() * .5 + self.winfo_x() - .5 * (self.width - 150) + 7)
+        spawn_y = int(self.winfo_height() * .5 + self.winfo_y() - .5 * (self.height - 150) + 20)
+        toplevel.geometry(f"{self.width-150}x{self.height-150}+{spawn_x}+{spawn_y}")
         toplevel.resizable(False, False)
         toplevel.wm_iconbitmap()
         toplevel.after(300, lambda: toplevel.iconphoto(False, self.iconpath))
-        
-        hPyT.window_frame.center_relative(self, toplevel)
 
         scrollable_info = customtkinter.CTkScrollableFrame(toplevel)
         scrollable_info.pack(fill="both", padx=10, pady=10, expand=True)
@@ -249,6 +253,8 @@ class App(customtkinter.CTk):
 
         def add_image():
             file_data = self.get_image(name)
+            if not toplevel.winfo_exists():
+                return
             if file_data:
                 image_label.configure(image=file_data, text="", fg_color="transparent", corner_radius=0, height=1)
             else:
@@ -278,18 +284,21 @@ class App(customtkinter.CTk):
 
         def add_stats_avatar():
             stars, avatar_url = self.get_stars_and_avatar(name)
-            if stars:
-                label_stars.configure(text=f"Stars: {stars}")
-            else:
-                label_stars.configure(text="Stars: Not Available")
-
+            
             if avatar_url:
                 avatar = urlopen(avatar_url)
                 raw_data = avatar.read()
                 avatar.close()
                 image = Image.open(io.BytesIO(raw_data))
                 file_data = customtkinter.CTkImage(image, size=(30,30))
-                author.configure(image=file_data, compound="left")
+                if toplevel.winfo_exists():
+                    author.configure(image=file_data, compound="left")
+            if not toplevel.winfo_exists():
+                return
+            if stars:
+                label_stars.configure(text=f"Stars: {stars}")
+            else:
+                label_stars.configure(text="Stars: Not Available")
 
         threading.Thread(target=add_stats_avatar, daemon=True).start()
 
@@ -317,14 +326,15 @@ class App(customtkinter.CTk):
         
         def on_entry_click(event):
             text = entry_pip.get()
-            pyperclip.copy(text)
+            self.clipboard_clear()
+            self.clipboard_append(text)
 
         entry_pip = customtkinter.CTkEntry(scrollable_info)
         entry_pip.pack(fill="x", padx=10, pady=(0,10))
         entry_pip.insert(0,self.data[name]["installation"])
         entry_pip.configure(state="readonly")
 
-        entry_pip.bind('<Button-1>', on_entry_click)
+        entry_pip.bind('<Double-1>', on_entry_click)
 
     def read_database(self):
         """ read the database containing package data """
