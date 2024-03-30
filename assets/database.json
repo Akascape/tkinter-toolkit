@@ -602,7 +602,7 @@
 	},
 
 "hPyT": {
-	"name": "hPyT",
+	"name": "hpyt",
 	"type": "pip",
 	"icon": "pkg",
 	"desc": "Manipulate window titlebar",
