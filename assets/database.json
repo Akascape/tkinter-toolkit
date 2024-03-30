@@ -433,6 +433,20 @@
 	"tags": ["gifs", "animation", "label", "ctkgif"]
 	},
 
+"PyGUI-Gauge": {
+	"name": "pyguigauge",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Gauge widget",
+	"full_desc": "The Gauge Widget is a customizable graphical representation of a gauge, implemented using the Tkinter library in Python. It allows you to create visually appealing gauges with customizable parameters such as size, range, colors, and more.",
+	"author": "Dongli Liu",
+	"highlights": ["Customizable: The gauge has high flexibility", "Interactive: Update the gauge value dynamically",  "Randomization: Generate random configurations ", "Adjust the size, range, colors, and other parameterst"],
+	"repo_url": "https://github.com/Dongli99/PY-gui-gauge",
+	"image_url": "https://github.com/Akascape/tkinter-toolkit/assets/89206401/31888cc2-14a2-467e-9d8d-980bf06a3ea8",
+	"installation": "https://github.com/Dongli99/PY-gui-gauge",
+	"tags": ["pyguigauge","dial", "circular","meter","gauge"]
+	},
+
 "AwesomeTkinter": {
 	"name": "awesometkinter",
 	"type": "pip",
