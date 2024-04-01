@@ -712,7 +712,21 @@
 	"installation": "https://github.com/anamite/ctk_widget",
 	"tags": ["ctkmeter", "meter", "dial", "gauge", "circular progressbar", "progressbar","loading"]
 	},
-	
+
+"CTkClock": {
+	"name": "ctkclock",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Clock Widget",
+	"full_desc": "A Library for CLock widget in Tkinter and CTkinter.",
+	"author": "Arthur-101",
+	"highlights": ["Clock component in CTk", "Fully customizable"],
+	"repo_url": "https://github.com/Arthur-101/CTkClock",
+	"image_url": "https://raw.githubusercontent.com/Arthur-101/CTkClock/main/Images/example%20clock3.png",
+	"installation": "https://github.com/Arthur-101/CTkClock",
+	"tags": ["customtkinter", "ctkclock", "clock", "analogclock", "time", "watch"]
+	},
+
 "Popup Menu": {
 	"name": "popup menu",
 	"type": "manual",
