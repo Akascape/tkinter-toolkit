@@ -213,21 +213,21 @@
 	"name": "tkchart",
 	"type": "pip",
 	"icon": "ctk",
-	"desc": "Chart widget for CTk",
-	"full_desc": "Create charts in tkinter & customtkinter windows!",
+	"desc": "Chart widget for CTk/Tk",
+	"full_desc": "Create charts in tkinter & tkinter windows!",
 	"author": "Thisal-D",
 	"highlights": ["plot graph easily", "configure graph data", "animated graph", "fully customisable", "lightweight library"],
 	"repo_url": "https://github.com/Thisal-D/tkchart",
 	"image_url": "https://user-images.githubusercontent.com/93121062/204732876-1d3f7526-93ea-4e5e-905b-b768020fd572.png",
 	"installation": "pip install tkchart",
-	"tags": ["tkchart","ctkchart", "chart", "graph", "plot"]
+	"tags": ["tkchart","ctkchart", "chart", "graph", "plot", "line chart"]
 	},
 
 "CTkDataVisualizingWidgets": {
 	"name": "ctkdatavisualizingwidgets",
 	"type": "manual",
 	"icon": "ctk",
-        "desc": "Custom calendar, graph and chart widgets",
+		"desc": "Custom calendar, graph and chart widgets",
 	"full_desc": "A library focused on displaying data related operations.",
 	"author": "ZikPin",
 	"highlights": ["Modern Calendar widget", "Chart widget", "Graph widgets", "Fully customizable"],
@@ -781,5 +781,19 @@
 	"image_url": "",
 	"installation": "https://github.com/rudymohammadbali/ctk_components/",
 	"tags": ["customtkinter", "ctkcomponents", "popupmenu","banner","notification","loader","gif","progress","treeview","messagebox"]
+	},
+
+"CTkChart": {
+	"name": "ctkchart",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Chart widget for CTk",
+	"full_desc": "Create charts in tkinter & customtkinter windows!",
+	"author": "Thisal-D",
+	"highlights": ["plot graph easily", "configure graph data", "animated graph", "fully customisable", "lightweight library"],
+	"repo_url": "https://github.com/Thisal-D/ctkchart",
+	"image_url": "https://github.com/Thisal-D/ctkchart/assets/93121062/ecb91596-2c50-46ef-923f-c3db0d6091d1",
+	"installation": "pip install ctkchart",
+	"tags": ["tkchart","ctkchart", "chart", "graph", "plot", "line chart"]
 	}
 }
