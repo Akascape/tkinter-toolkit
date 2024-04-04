@@ -795,5 +795,20 @@
 	"image_url": "https://github.com/Thisal-D/ctkchart/assets/93121062/ecb91596-2c50-46ef-923f-c3db0d6091d1",
 	"installation": "pip install ctkchart",
 	"tags": ["tkchart","ctkchart", "chart", "graph", "plot", "line chart"]
+	},
+
+"Tkhtmlview": {
+	"name": "tkhtmlview",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "HTML widgets for tkinter / customtkinter",
+	"full_desc": "Display basic html in ui",
+	"author": "bauripalash / paolo-gurisatti",
+	"highlights": ["simple and lightweight", "text can be disaply as html", "image support"],
+	"repo_url": "https://github.com/paolo-gurisatti/tk_html_widgets",
+	"image_url": "https://github.com/Thisal-D/Youtube-Downloader/assets/93121062/b38ada9b-87ac-438a-9b12-a3aebb098f32",
+	"installation": "pip install tkhtmlview",
+	"tags": ["html", "tkhtmlview", "tk_html_widgets"]
 	}
 }
+
