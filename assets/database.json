@@ -800,7 +800,7 @@
 "Tkhtmlview": {
 	"name": "tkhtmlview",
 	"type": "pip",
-	"icon": "ctk",
+	"icon": "tk",
 	"desc": "HTML widgets for tkinter / customtkinter",
 	"full_desc": "Display basic html in ui",
 	"author": "bauripalash / paolo-gurisatti",
