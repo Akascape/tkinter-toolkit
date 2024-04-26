@@ -236,7 +236,21 @@
 	"installation": "https://github.com/ZikPin/CTkDataVisualizingWidgets",
 	"tags": ["calendar", "chart", "graph", "data visualizing", "ctkdatavisualizingwidgets", "widgets"]
 	},
-	
+
+"CTkRadarChart": {
+	"name": "ctkradarchart",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Radar chart for CTk",
+	"full_desc": "A radar chart widget for customtkinter, data visualizing widget.",
+	"author": "Akascape",
+	"highlights": ["Visualise data in a radar chart", "Fully customisable","Resizable widget"],
+	"repo_url": "https://github.com/Akascape/CTkRadarChart",
+	"image_url": "https://github.com/Akascape/CTkRadarChart/assets/89206401/0d3ecda5-f73d-4d27-b7d7-817cf42905ec",
+	"installation": "https://github.com/Akascape/CTkRadarChart",
+	"tags": ["ctkradarchart","radarchart", "spiderchart", "webchart","polarchart","radialchart","chart","graph"]
+	},
+
 "TkCalendar": {
 	"name": "tkcalendar",
 	"type": "pip",
