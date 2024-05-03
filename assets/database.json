@@ -816,13 +816,27 @@
 	"type": "pip",
 	"icon": "tk",
 	"desc": "HTML widgets for tkinter",
-	"full_desc": "Display basic html in ui in tkinter",
+	"full_desc": "Display basic html in ui",
 	"author": "bauripalash / paolo-gurisatti",
-	"highlights": ["simple and lightweight library", "text can be displayed as html", "image support"],
+	"highlights": ["simple and lightweight", "text can be disaply as html", "image support"],
 	"repo_url": "https://github.com/paolo-gurisatti/tk_html_widgets",
 	"image_url": "https://github.com/Thisal-D/Youtube-Downloader/assets/93121062/b38ada9b-87ac-438a-9b12-a3aebb098f32",
 	"installation": "pip install tkhtmlview",
-	"tags": ["html", "tkhtmlview", "tkhtmlwidget"]
+	"tags": ["html", "tkhtmlview", "tk_html_widgets"]
+	},
+
+"ShadowTk": {
+	"name": "ShadowTk",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Shadows in widgets",
+	"full_desc": "Add Shadows to Tkinter Components",
+	"author": "vednig",
+	"highlights": ["simple shadows around tkinter widgets"],
+	"repo_url": "https://github.com/vednig/shadowTk",
+	"image_url": "https://i.stack.imgur.com/fJot2.png",
+	"installation": "https://github.com/vednig/shadowTk",
+	"tags": ["shadowtk", "shadows", "background"]
 	}
 }
 
