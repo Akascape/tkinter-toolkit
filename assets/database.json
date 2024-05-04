@@ -386,7 +386,7 @@
 	"author": "ragardner",
 	"highlights": ["Display and modify tabular data", "Runs smoothly even with millions of rows/columns",  "Drag and drop columns and rows", "Change any colors in the sheet","Create an unlimited number of high performance dropdown and check boxes","Edit cells directly"],
 	"repo_url": "https://github.com/ragardner/tksheet",
-	"image_url": "https://camo.githubusercontent.com/e1e2ed1c9c1914ad755e5675bca4e613a3232f193bd698a5912b7f351007a6f6/68747470733a2f2f692e696d6775722e636f6d2f4a654639764a652e6a706567",
+	"image_url": "https://github.com/ragardner/tksheet/assets/89206401/cf52d22b-8791-43a9-b9bf-2ece90899353",
 	"installation": "pip install tksheet",
 	"tags": ["tksheet", "table", "table", "treeview", "tabular","data", "sheet", "excel"]
 	},
