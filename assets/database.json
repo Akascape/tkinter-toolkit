@@ -461,6 +461,20 @@
 	"tags": ["pyguigauge","dial", "circular","meter","gauge"]
 	},
 
+"TkCurve": {
+	"name": "tkcurve",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Curve Editor",
+	"full_desc": "A simple curve line widget for tkinter.",
+	"author": "Akascape",
+	"highlights": ["Modern look",  "Add points in the curve", "Bezier curves", "Control points"],
+	"repo_url": "https://github.com/Akascape/TkCurve",
+	"image_url": "https://github.com/Akascape/TkCurve/assets/89206401/b4cd7314-b899-4244-b4ee-1ff25355ba7c",
+	"installation": "https://github.com/Akascape/TkCurve",
+	"tags": ["tkcurve", "lines", "curveeditor", "bezier", "linear"]
+	},
+	
 "AwesomeTkinter": {
 	"name": "awesometkinter",
 	"type": "pip",
