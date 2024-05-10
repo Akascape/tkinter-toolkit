@@ -250,7 +250,21 @@
 	"installation": "https://github.com/Akascape/CTkRadarChart",
 	"tags": ["ctkradarchart","radarchart", "spiderchart", "webchart","polarchart","radialchart","chart","graph"]
 	},
-
+	
+"CTkPieChart": {
+	"name": "ctkpiechart",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Pie chart for CTk",
+	"full_desc": "A pie chart widget for customtkinter, data visualizing widget.",
+	"author": "Akascape",
+	"highlights": ["Visualise data in a pie chart", "Fully customisable", "Automatic calculations", "No sharp edges"],
+	"repo_url": "https://github.com/Akascape/CTkPieChart",
+	"image_url": "https://github.com/Akascape/CTkPieChart/assets/89206401/2632a3f0-bf79-40ec-a3a1-bf5252d571b9",
+	"installation": "https://github.com/Akascape/CTkPieChart",
+	"tags": ["ctkpiechart","piechart", "piegraph", "circle","chart","graph"]
+	},
+	
 "TkCalendar": {
 	"name": "tkcalendar",
 	"type": "pip",
