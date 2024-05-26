@@ -865,6 +865,19 @@
 	"image_url": "https://i.stack.imgur.com/fJot2.png",
 	"installation": "https://github.com/vednig/shadowTk",
 	"tags": ["shadowtk", "shadows", "background"]
+	},
+
+"Nativesvttk": {
+	"name": "Nativesvttk",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Even more windows 11-like With custom titlebars",
+	"full_desc": "Even more windows 11-like! With custom titlebars, Making themed apps is now so easy!",
+	"author": "jhi2 / Johnny",
+	"highlights": ["Making themed apps is now so easy!"],
+	"repo_url": "-",
+	"image_url": "-",
+	"installation": "pip install nativesvttk",
+	"tags": ["nativesvttk", "svttk"]
 	}
 }
-
