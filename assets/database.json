@@ -874,9 +874,9 @@
 	"desc": "Even more windows 11-like With custom titlebars",
 	"full_desc": "Even more windows 11-like! With custom titlebars, Making themed apps is now so easy!",
 	"author": "jhi2 / Johnny",
-	"highlights": ["Making themed apps is now so easy!"],
+	"highlights": ["Making themed apps is now so easy!", "Windows 11 like look"],
 	"repo_url": "-",
-	"image_url": "-",
+	"image_url": "https://github.com/Thisal-D/tkinter-toolkit/assets/93121062/0969a775-03f3-4946-9aae-1f42cfbbe3f1",
 	"installation": "pip install nativesvttk",
 	"tags": ["nativesvttk", "svttk"]
 	}
