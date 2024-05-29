@@ -879,6 +879,20 @@
 	"image_url": "https://github.com/Akascape/tkinter-toolkit/assets/77564176/dd31b1f6-9f97-44f9-af0f-94a09d853cae",
 	"installation": "pip install libtextworker",
 	"tags": ["dialog box", "directory", "tree", "json", "auto-color", "config"]
+	},
+
+"RoundedTk": {
+	"name": "RoundedTk",
+	"type": "manual",
+	"icon": "tk",
+	"desc": "Round windows",
+	"full_desc": "Rounded Tk is a Python library that allows you to easily create rounded windows and widgets with Python Tkinter.",
+	"author": "AZachia",
+	"highlights": ["Apply transparent round corners in the tkinter window", "https://github.com/AZachia/Rounded-Tk"],
+	"repo_url": "https://github.com/AZachia/Rounded-Tk",
+	"image_url": "https://raw.githubusercontent.com/AZachia/Rounded-Tk/main/images/RoundedTk.png",
+	"installation": "https://github.com/AZachia/Rounded-Tk",
+	"tags": ["RoundedTk", "Transparent"]
 	}
 }
 
