@@ -900,7 +900,7 @@
 	"type": "manual",
 	"icon": "ctk",
 	"desc": "Slideshow carousel",
-	"full_desc": A Slide View (Slideshow carousel) for customtkinter. This includes a smooth animation between the slides too.",
+	"full_desc": "A Slide View (Slideshow carousel) for customtkinter. This includes a smooth animation between the slides too.",
 	"author": "rigvedmaanas",
 	"highlights": ["Add widgets in the slide", "Smooth animation between the slide"],
 	"repo_url": "https://github.com/rigvedmaanas/CTkSlideView",
