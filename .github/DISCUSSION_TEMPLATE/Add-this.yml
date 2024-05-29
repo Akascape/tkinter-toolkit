@@ -15,7 +15,7 @@ body:
     id: desc
     attributes:
       label: Description of your project
-      description: "Write a short description of your project!"
+      description: "Write a short but good description of your project!"
       render: bash
     validations:
       required: true
@@ -28,27 +28,46 @@ body:
         1.
         2.
         3.
+        4.
+        5.
         ...
       render: bash
     validations:
       required: true
-  - type: markdown
+  - type: input
+    id: author
     attributes:
-      value: |
-        ## Markdown header
-        And some more markdown
+      label: Author name
+    validations:
+      required: true
+  - type: input
+    id: preview
+    attributes:
+      label: Preview Image URL
+    validations:
+      required: false
   - type: dropdown
     id: pip
     attributes:
-      label: Is the project uploaded to pip?
+      label: Is the project uploaded to pypi/pip?
       options:
         - 'Yes'
         - 'No'
     validations:
       required: true
+  - type: dropdown
+    id: type
+    attributes:
+      label: Project Type?
+      options:
+        - 'Tkinter based'
+        - 'Customtkinter based'
+        - 'Tool/utility'
+    validations:
+      required: true
   - type: checkboxes
     attributes:
-      label: docs
+      label: Documentation?
       options:
         - label: The repository has proper documentation
           required: true
