@@ -78,5 +78,5 @@ body:
   - type: markdown
     attributes:
       value: |
-        ### Thank you!
+        ### That's it!
         _This form will be checked soon..._
