@@ -892,7 +892,21 @@
 	"repo_url": "https://github.com/AZachia/Rounded-Tk",
 	"image_url": "https://raw.githubusercontent.com/AZachia/Rounded-Tk/main/images/RoundedTk.png",
 	"installation": "https://github.com/AZachia/Rounded-Tk",
-	"tags": ["RoundedTk", "Transparent"]
+	"tags": ["roundedtk", "transparent"]
+	},
+
+"CTkSlideView": {
+	"name": "CTkSlideView",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Slideshow carousel",
+	"full_desc": A Slide View (Slideshow carousel) for customtkinter. This includes a smooth animation between the slides too.",
+	"author": "rigvedmaanas",
+	"highlights": ["Add widgets in the slide", "Smooth animation between the slide"],
+	"repo_url": "https://github.com/rigvedmaanas/CTkSlideView",
+	"image_url": "https://github.com/rigvedmaanas/CTkSlideView/assets/89206401/ff58a72e-dc6c-4193-ba1a-8f78773405c8",
+	"installation": "https://github.com/rigvedmaanas/CTkSlideView",
+	"tags": ["slideshow", "slides", "ctkslideview", "animation"]
 	}
 }
 
