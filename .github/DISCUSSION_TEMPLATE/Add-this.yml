@@ -6,14 +6,13 @@ body:
       value: |
         Please complete this form!
   - type: input
-    id: has-id
+    id: url
     attributes:
       label: Repo-URL
-      description: Repository URL
     validations:
       required: true
   - type: textarea
-    id: highlights
+    id: desc
     attributes:
       label: Description of your project
       description: "Write a short description of your project!"
