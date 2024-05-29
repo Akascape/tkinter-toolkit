@@ -38,12 +38,14 @@ body:
     id: author
     attributes:
       label: Author name
+      description: "Realname or username"
     validations:
       required: true
   - type: input
     id: preview
     attributes:
       label: Preview Image URL
+      description: "Upload the image to github and paste the link here"
     validations:
       required: false
   - type: dropdown
