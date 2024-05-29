@@ -51,7 +51,7 @@ body:
   - type: dropdown
     id: pip
     attributes:
-      label: Is the project uploaded to [pypi/pip](https://pypi.org/)?
+      label: Is the project uploaded to pypi/pip?
       options:
         - 'Yes'
         - 'No'
@@ -63,15 +63,17 @@ body:
       label: Project Type?
       options:
         - 'Tkinter based'
-        - 'Customtkinter based'
+        - 'CustomTkinter based'
         - 'Tool/utility'
     validations:
       required: true
   - type: checkboxes
     attributes:
-      label: Documentation?
+      label: Check List
       options:
         - label: The repository has proper documentation
+          required: false
+        - label: The library is in working condition
           required: true
         - label: The library is in working condition
           required: true
