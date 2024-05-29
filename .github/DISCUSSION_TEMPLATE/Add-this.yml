@@ -71,9 +71,9 @@ body:
     attributes:
       label: CheckList
       options:
-        - label: The repository has proper documentation
+        - label: The project has proper documentation
           required: false
-        - label: The library is in working condition
+        - label: The project is in working condition
           required: true
   - type: markdown
     attributes:
