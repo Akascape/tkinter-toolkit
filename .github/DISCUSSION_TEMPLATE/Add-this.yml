@@ -14,7 +14,7 @@ body:
   - type: textarea
     id: desc
     attributes:
-      label: Description of your project
+      label: Description
       description: "Write a short but good description of your project!"
       render: bash
     validations:
@@ -22,7 +22,7 @@ body:
   - type: textarea
     id: highlights
     attributes:
-      label: Highlights of your project
+      label: Highlights 
       description: "Write some useful features of your project"
       value: |
         1.
@@ -37,7 +37,7 @@ body:
   - type: input
     id: author
     attributes:
-      label: Author name
+      label: Author Name
       description: "realname or username"
     validations:
       required: true
@@ -69,7 +69,7 @@ body:
       required: true
   - type: checkboxes
     attributes:
-      label: Check List
+      label: CheckList
       options:
         - label: The repository has proper documentation
           required: false
