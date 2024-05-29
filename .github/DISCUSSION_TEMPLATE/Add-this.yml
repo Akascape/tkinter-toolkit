@@ -8,7 +8,7 @@ body:
   - type: input
     id: url
     attributes:
-      label: Repo-URL
+      label: Repository URL
     validations:
       required: true
   - type: textarea
@@ -23,7 +23,7 @@ body:
     id: highlights
     attributes:
       label: Highlights of your project
-      description: "What usefull features your project has?"
+      description: "Write some useful features of your project"
       value: |
         1.
         2.
@@ -38,7 +38,7 @@ body:
     id: author
     attributes:
       label: Author name
-      description: "Realname or username"
+      description: "realname or username"
     validations:
       required: true
   - type: input
@@ -72,6 +72,8 @@ body:
       label: Documentation?
       options:
         - label: The repository has proper documentation
+          required: true
+        - label: The library is in working condition
           required: true
   - type: markdown
     attributes:
