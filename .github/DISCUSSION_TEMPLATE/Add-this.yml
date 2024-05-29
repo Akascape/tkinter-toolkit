@@ -4,7 +4,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please complete this form!
+        Please complete this form:
   - type: input
     id: url
     attributes:
@@ -51,7 +51,7 @@ body:
   - type: dropdown
     id: pip
     attributes:
-      label: Is the project uploaded to pypi/pip?
+      label: Is the project uploaded to [pypi/pip](https://pypi.org/)?
       options:
         - 'Yes'
         - 'No'
