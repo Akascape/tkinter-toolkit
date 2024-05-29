@@ -75,8 +75,6 @@ body:
           required: false
         - label: The library is in working condition
           required: true
-        - label: The library is in working condition
-          required: true
   - type: markdown
     attributes:
       value: |
