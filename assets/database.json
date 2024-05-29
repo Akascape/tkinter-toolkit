@@ -878,7 +878,7 @@
 	"repo_url": "https://github.com/lebao3105/libtextworker",
 	"image_url": "https://github.com/Akascape/tkinter-toolkit/assets/77564176/dd31b1f6-9f97-44f9-af0f-94a09d853cae",
 	"installation": "pip install libtextworker",
-	"tags": ["dialog box", "directory", "tree", "json", "auto-color", "config"]
+	"tags": ["libtextworker", "dialog box", "directory", "tree", "json", "auto-color", "config"]
 	},
 
 "RoundedTk": {
