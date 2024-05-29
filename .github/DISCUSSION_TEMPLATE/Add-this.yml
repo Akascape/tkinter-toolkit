@@ -43,8 +43,8 @@ body:
     attributes:
       label: Is the project uploaded to pip?
       options:
-        - Yes
-        - No
+        - 'Yes'
+        - 'No'
     validations:
       required: true
   - type: checkboxes
