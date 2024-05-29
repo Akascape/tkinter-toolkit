@@ -1,15 +1,30 @@
-title: "[General] "
-labels: ["General Introduction"]
+title: "[Project Name]"
+labels: ["Add new library"]
 body:
   - type: markdown
     attributes:
       value: |
-        This is text that will show up in the template!
-  - type: textarea
-    id: improvements
+        Please complete this form!
+  - type: input
+    id: has-id
     attributes:
-      label: Top 3 improvements
-      description: "What are the top 3 improvements we could make to this project?"
+      label: Repo-URL
+      description: Repository URL
+    validations:
+      required: true
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Description of your project
+      description: "Write a short description of your project!"
+      render: bash
+    validations:
+      required: true
+  - type: textarea
+    id: highlights
+    attributes:
+      label: Highlights of your project
+      description: "What usefull features your project has?"
       value: |
         1.
         2.
@@ -23,33 +38,23 @@ body:
       value: |
         ## Markdown header
         And some more markdown
-  - type: input
-    id: has-id
-    attributes:
-      label: Suggestions
-      description: A description about suggestions to help you
-    validations:
-      required: true
   - type: dropdown
-    id: download
+    id: pip
     attributes:
-      label: Which area of this project could be most improved?
+      label: Is the project uploaded to pip?
       options:
-        - Documentation
-        - Pull request review time
-        - Bug fix time
-        - Release cadence
+        - Yes
+        - No
     validations:
       required: true
   - type: checkboxes
     attributes:
-      label: Check that box!
+      label: docs
       options:
-        - label: This one!
+        - label: The repository has proper documentation
           required: true
-        - label: I won't stop you if you check this one, too
   - type: markdown
     attributes:
       value: |
-        ### The thrilling conclusion
-        _to our template_
+        ### Thank you!
+        _This form will be checked soon..._
