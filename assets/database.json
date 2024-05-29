@@ -865,6 +865,20 @@
 	"image_url": "https://i.stack.imgur.com/fJot2.png",
 	"installation": "https://github.com/vednig/shadowTk",
 	"tags": ["shadowtk", "shadows", "background"]
+	},
+	
+"Libtextworker": {
+	"name": "libtextworker",
+	"type": "pip",
+	"icon": "tk",
+	"desc": "Utility project",
+	"full_desc": "This library aims to be suitable for both GUI and CLI/TUI based programs.",
+	"author": "Le Bao Nguyen",
+	"highlights": ["Tkinter text edit widget with line numbers", "A custom about dialog", "Directory tree + list (on work) with auto refresh", "JSON+INI configuration system and class for anything you like", "Auto coloring, uses darkdetect"],
+	"repo_url": "https://github.com/lebao3105/libtextworker",
+	"image_url": "https://github.com/Akascape/tkinter-toolkit/assets/77564176/dd31b1f6-9f97-44f9-af0f-94a09d853cae",
+	"installation": "pip install libtextworker",
+	"tags": ["dialog box", "directory", "tree", "json", "auto-color", "config"]
 	}
 }
 
