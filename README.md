@@ -15,7 +15,7 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 [<img src="https://img.shields.io/badge/DOWNLOAD-Tkinter_Toolkit-informational?&color=38568b&logo=Python&logoColor=yellow" width="300">](https://github.com/Akascape/tkinter-toolkit/archive/refs/heads/main.zip)
 
 *Requirements: `customtkinter` and `PIL`,*
-*Don't forget to leave a* ⭐
+*Don't forget to leave a* ⭐, it helps in sharing this repository.
 </div>
 
 ## Features
