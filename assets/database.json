@@ -615,6 +615,20 @@
 	"tags": ["svttk", "sv-ttk", "sun valley theme", "themes", "sunvalleyttktheme", "tkinter", "ttk", "windows 11"]
 	},
 
+"Sun Valley Theme Colorizer": {
+	"name": "sv_ttk_colorizer",
+	"type": "pip",
+	"icon": "pkg",
+	"desc": "sv-ttk theme toolkit",
+	"full_desc": "Sun Valley Theme Colorizer is a tool that allows you to quickly change the accent color of the Sun Valley ttk theme.",
+	"author": "Valer100",
+	"highlights": ["Windows 11 look and feel for Tkinter", "Dark and light themes", "Easy to apply, just add `sv_ttk.use_dark_theme()`"],
+	"repo_url": "https://github.com/Valer100/Sun-Valley-Theme-Colorizer",
+	"image_url": "https://raw.githubusercontent.com/Valer100/Sun-Valley-Theme-Colorizer/main/screenshots/image_hero_dark.png",
+	"installation": "pip install sv_ttk_colorizer",
+	"tags": ["svttk", "sv-ttk", "sun valley theme", "svttkcolorizer", "sunvalleyttktheme", "colorizer"]
+	},
+
 "TkFontAwesome": {
 	"name": "tkfontawesome",
 	"type": "pip",
@@ -907,6 +921,20 @@
 	"image_url": "https://github.com/rigvedmaanas/CTkSlideView/assets/89206401/ff58a72e-dc6c-4193-ba1a-8f78773405c8",
 	"installation": "https://github.com/rigvedmaanas/CTkSlideView",
 	"tags": ["slideshow", "slides", "ctkslideview", "animation"]
-	}
-}
+	},
 
+"CTkCalendar": {
+	"name": "CTkCalendar",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Calendar widget for CTk",
+	"full_desc": "CTkCalendar is a modern and customizable calendar widget built with Python's tkinter and customtkinter libraries. It provides a sleek, user-friendly interface to interact with calendar data, and it is perfect for adding calendar functionality to your Python applications.",
+	"author": "Mustafa Hilmi YAVUZHAN",
+	"highlights": ["Aesthetic design with customizable colors and themes.", "Month Navigation: Easily navigate between months with previous and next buttons.", "Current Day Highlight: Highlight the current day with customizable colors.", "Custom Callback: Execute a callback function when a day is clicked.", "Flexible Display Options: Hide or show window elements based on preferences."],
+	"repo_url": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender",
+	"image_url": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender/blob/main/screenshots/All.png?raw=true",
+	"installation": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender",
+	"tags": ["calendar", "calender", "month", "day", "year"]
+	}
+
+}
