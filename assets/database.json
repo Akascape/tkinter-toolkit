@@ -390,7 +390,21 @@
 	"installation": "pip install tklinenums",
 	"tags": ["tklinenums","linenumbers", "number", "widget"]
 	},
-	
+
+"CTkCodeBox": {
+	"name": "ctkcodebox",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "Code Viewer Widget",
+	"full_desc": "Advanced Code Viewer for customtkinter, with line numbers and code highlighting.",
+	"author": "Akascape",
+	"highlights": ["Multiple language support", "Code syntax highlighting", "Multiple Color Themes", "Right-click copy-paste menu", "Line numbers on left side", "Fully customizable"],
+	"repo_url": "https://github.com/Akascape/CTkCodeBox",
+	"image_url": "https://github.com/user-attachments/assets/a22c6142-afc8-4239-840f-76e06ef7c668",
+	"installation": "https://github.com/Akascape/CTkCodeBox",
+	"tags": ["ctkcodebox", "codeeditor", "coding", "editor", "syntax", "programming", "codeview", "textbox", "codebox"]
+	},
+
 "TkSheet": {
 	"name": "tksheet",
 	"type": "pip",
