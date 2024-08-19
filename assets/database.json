@@ -948,7 +948,22 @@
 	"repo_url": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender",
 	"image_url": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender/blob/main/screenshots/All.png?raw=true",
 	"installation": "https://github.com/MustafaHilmiYAVUZHAN/CTkCalender",
-	"tags": ["calendar", "calender", "month", "day", "year"]
+	"tags": ["ctkcalendar", "calendar", "calender", "month", "day", "year"]
+	},
+
+"WinAccent": {
+	"name": "winaccent",
+	"type": "pip",
+	"icon": "pkg",
+	"desc": "Windows accent color utility",
+	"full_desc": "A simple and lightweight Python module for getting Windows' accent color. With this module you can get both light and dark mode accent colors.",
+	"author": "Valer100",
+	"highlights": ["get light, dark and normal accent colors", "get a callback when the accent color is changed", "lightweight and easy to use."],
+	"repo_url": "https://github.com/Valer100/winaccent",
+	"image_url": "https://github.com/Valer100/winaccent/blob/main/assets/hero.png?raw=true",
+	"installation": "pip install winaccent",
+	"tags": ["winaccent", "color", "accent", "windows"]
 	}
+}
 
 }
