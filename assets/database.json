@@ -634,13 +634,13 @@
 	"type": "pip",
 	"icon": "pkg",
 	"desc": "sv-ttk theme toolkit",
-	"full_desc": "Sun Valley Theme Colorizer is a tool that allows you to quickly change the accent color of the Sun Valley ttk theme.",
+	"full_desc": "A Python module for changing the accent color and applying some tweaks to @rdbende's Sun Valley ttk theme. Simple and easy to use.",
 	"author": "Valer100",
 	"highlights": ["change the accent color with no effort", "apply tweaks and fixes, like dark mode titlebars support", "export and import tweaks for future use", "live preview"],
 	"repo_url": "https://github.com/Valer100/Sun-Valley-Theme-Colorizer",
 	"image_url": "https://raw.githubusercontent.com/Valer100/Sun-Valley-Theme-Colorizer/main/screenshots/image_hero_dark.png",
 	"installation": "pip install sv_ttk_colorizer",
-	"tags": ["svttk", "sv-ttk", "sun valley theme", "svttkcolorizer", "sunvalleyttktheme", "colorizer", "windows 11"]
+	"tags": ["svttk", "sv-ttk", "sun valley theme", "svttkcolorizer", "sunvalleyttktheme", "colorizer", "windows 11", "sv-ttk-c", "sv_ttk_c"]
 	},
 
 "TkFontAwesome": {
