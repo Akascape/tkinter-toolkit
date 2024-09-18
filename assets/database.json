@@ -634,13 +634,13 @@
 	"type": "pip",
 	"icon": "pkg",
 	"desc": "sv-ttk theme toolkit",
-	"full_desc": "Sun Valley Theme Colorizer is a tool that allows you to quickly change the accent color of the Sun Valley ttk theme.",
+	"full_desc": "A Python module for changing the accent color and applying some tweaks to @rdbende's Sun Valley ttk theme. Simple and easy to use.",
 	"author": "Valer100",
-	"highlights": ["Windows 11 look and feel for Tkinter", "Dark and light themes", "Easy to apply, just add `sv_ttk.use_dark_theme()`"],
+	"highlights": ["change the accent color with no effort", "apply tweaks and fixes, like dark mode titlebars support", "export and import tweaks for future use", "live preview"],
 	"repo_url": "https://github.com/Valer100/Sun-Valley-Theme-Colorizer",
 	"image_url": "https://raw.githubusercontent.com/Valer100/Sun-Valley-Theme-Colorizer/main/screenshots/image_hero_dark.png",
 	"installation": "pip install sv_ttk_colorizer",
-	"tags": ["svttk", "sv-ttk", "sun valley theme", "svttkcolorizer", "sunvalleyttktheme", "colorizer"]
+	"tags": ["svttk", "sv-ttk", "sun valley theme", "svttkcolorizer", "sunvalleyttktheme", "colorizer", "windows 11", "sv-ttk-c", "sv_ttk_c"]
 	},
 
 "TkFontAwesome": {
@@ -951,14 +951,14 @@
 	"tags": ["ctkcalendar", "calendar", "calender", "month", "day", "year"]
 	},
 
-"WinAccent": {
+"winaccent": {
 	"name": "winaccent",
 	"type": "pip",
 	"icon": "pkg",
 	"desc": "Windows accent color utility",
-	"full_desc": "A simple and lightweight Python module for getting Windows' accent color. With this module you can get both light and dark mode accent colors.",
+	"full_desc": "A simple and lightweight Python module for getting Windows' accent color or a shade of it. Works on both Windows 10 and 11 and doesn't require additional dependencies.",
 	"author": "Valer100",
-	"highlights": ["get light, dark and normal accent colors", "get a callback when the accent color is changed", "lightweight and easy to use."],
+	"highlights": ["get light mode/dark mode/normal accent color or a shade of it", "get a callback when the accent color is changed", "lightweight and easy to use", "no additional dependencies"],
 	"repo_url": "https://github.com/Valer100/winaccent",
 	"image_url": "https://github.com/Valer100/winaccent/blob/main/assets/hero.png?raw=true",
 	"installation": "pip install winaccent",
