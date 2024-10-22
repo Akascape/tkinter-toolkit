@@ -25,7 +25,8 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 - Preview images of the UI libraries
 - Detailed descriptions provided
 - Update database and view new packages if available
-
+- Share your own tkinter libraries
+  
 ## Screenshots
 ![Screenshot1](https://github.com/Akascape/tkinter-toolkit/assets/89206401/fa4c6fbd-707d-468e-9f85-6c7b8ab15ceb)
 ![Screenshot2](https://github.com/Akascape/tkinter-toolkit/assets/89206401/1884b4da-37c5-4b2c-ade4-4dd8b9012fa5)
@@ -35,7 +36,7 @@ Note: This app is not a download manager for the libaries, it just shows the col
 
 Hope it will help tkinter users and also the respected repository owners. 
 
-_If you have found or made any new tkinter based widget library, then please share it here!_
+_Share any new tkinter-based widget libraries you've found or created!_
 
 [<img src="https://img.shields.io/badge/ADD-NEW_LIBRARY-informational?&color=black&style=for-the-badge" width="200">](https://github.com/Akascape/tkinter-toolkit/discussions/new?category=add-this)
 [<img src="https://img.shields.io/badge/Made_With-Tkinter-informational?&color=df0001&style=for-the-badge" width="200">](https://docs.python.org/3/library/tkinter.html)
