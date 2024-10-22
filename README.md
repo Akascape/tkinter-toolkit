@@ -22,7 +22,7 @@ Tkinter is a great library for UI development in python. Specially the canvas wi
 - Explore new tkinter/customtkinter addon libraries
 - Experience a better UI development with tkinter
 - Installation links are provided
-- Preview images of the libraries
+- Preview images of the UI libraries
 - Detailed descriptions provided
 - Update database and view new packages if available
 
