@@ -713,6 +713,21 @@
 	"tags": ["customtkinter", "listbox",  "combobox", "optionmenu", "menu"]
 	},
 
+
+"CTkVisualizer": {
+	"name": "ctkvisualizer",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Audio Visualizer for CTk",
+	"full_desc": "CTkVisualizer is an interactive and visually engaging tool that transforms audio data into dynamic visual representations. Utilizing Python libraries such as librosa, pygame, and customtkinter, this application provides real-time visualization of audio frequencies and amplitudes through colorful, animated bars. Users can play audio files, pause, and adjust volume levels, while enjoying a captivating display that enhances their listening experience. Ideal for music lovers, developers, and artists, this project showcases the beauty of sound through visual art.",
+	"author": "Loris Dante (iLollek)",
+	"highlights": ["Real-Time Visualization: Experience live audio visualization with animated \nbars that respond instantly to changes in frequency and amplitude.", "Customizable Color Schemes: Personalize the visualizer by changing the \ncolor of the audio bars to suit your preferences or the mood of the music.","Dynamic Audio Playback Control: Easily control playback with methods to \nplay, pause, and resume audio, along with volume adjustments for a tailored \nlistening experience.","Transparent Bar Effects: Enhance visual aesthetics with optional \ntransparency effects, creating a unique and immersive experience."],
+	"repo_url": "https://github.com/iLollek/CTkVisualizer",
+	"image_url": "https://raw.githubusercontent.com/iLollek/CTkVisualizer/refs/heads/main/image.png",
+	"installation": "pip install CTkVisualizer",
+	"tags": ["audio visualizer", "music visualizer",  "visualizer", "ctkvisualizer", "animation", "sound"]
+	},
+	
 "TkVisualizer": {
 	"name": "tkvisualizer",
 	"type": "manual",
