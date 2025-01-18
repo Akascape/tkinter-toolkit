@@ -978,5 +978,19 @@
 	"image_url": "https://github.com/Valer100/winaccent/blob/main/assets/hero.png?raw=true",
 	"installation": "pip install winaccent",
 	"tags": ["winaccent", "color", "accent", "windows"]
+	},
+
+"CTkToggle": {
+	"name": "ctktoggle",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "Toggle Button widget",
+	"full_desc": "A lightweight and easy-to-use Python package designed to simplify the creation and management of toggle buttons and toggle groups using CustomTkinter. Seamlessly integrate visually appealing toggle buttons into your CustomTkinter-based GUI applications. The package supports dynamic group behavior, customizable colors, and robust state management, making it ideal for modern, interactive user interfaces.",
+	"author": "Tchicdje Kouojip Joram Smith",
+	"highlights": ["Create toggle buttons with customizable states.", "Group buttons for coordinated toggling.", "Easily manage toggle states programmatically.", "Freely engage in the development of cleaner UIs.", "Enhance versatility by replacing CTkSwitch with CTkToggleButton."],
+	"repo_url": "https://github.com/DeltaGa/ctk_toggle",
+	"image_url": "https://raw.githubusercontent.com/DeltaGa/ctk_toggle/refs/heads/main/assets/thumbnail.jpg",
+	"installation": "pip install ctk_toggle",
+	"tags": ["ctktoggle", "ctk_toggle", "togglebutton", "button"]
 	}
 }
