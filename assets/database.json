@@ -992,5 +992,29 @@
 	"image_url": "https://raw.githubusercontent.com/DeltaGa/ctk_toggle/refs/heads/main/assets/thumbnail.jpg",
 	"installation": "pip install ctk_toggle",
 	"tags": ["ctktoggle", "ctk_toggle", "togglebutton", "button"]
-	}
+	},
+
+"Maliang": {
+        "name": "maliang",
+        "type": "pip",
+        "icon": "tk",
+        "desc": "A lightweight UI framework drawn in Tk Canvas!",
+        "full_desc": "A lightweight UI framework based on tkinter with all UI drawn in Canvas! Maliang supports modern and interactive user interfaces, adaptive systems theme, plotting and animation of matplotlib, playing videos with audio, drawing simple 3D objects, and building custom widgets.",
+        "author": "Xiaokang2022",
+        "highlights": [
+            "Widgets drawn entirely from the canvas!",
+            "Very modern UI!",
+            "Partially compatible with tkinter!",
+            "It's very easy to learn!",
+            "Adaptive Systems Theme!",
+            "Support plotting and animation of matplotlib!",
+            "Support playing videos with audio!",
+            "Support for drawing simple 3D objects!",
+            "Easily build the widgets you want!"
+        ],
+        "repo_url": "https://github.com/Xiaokang2022/maliang",
+        "image_url": "https://github.com/Xiaokang2022/maliang-demos/blob/main/preview/demo1-1.png?raw=true",
+        "installation": "pip install maliang",
+        "tags": ["maliang", "canvas", "tkinter", "ui framework", "widgets", "tkintertools"]
+    }
 }
