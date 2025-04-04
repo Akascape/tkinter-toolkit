@@ -1016,5 +1016,24 @@
         "image_url": "https://github.com/Xiaokang2022/maliang-demos/blob/main/preview/demo1-1.png?raw=true",
         "installation": "pip install maliang",
         "tags": ["maliang", "canvas", "tkinter", "ui framework", "widgets", "tkintertools"]
+    },
+	
+"CTkExtendedGraph": {
+	"name": "CTkExtendedGraph",
+	"type": "pip",
+	"icon": "ctk",
+	"desc": "A customizable and dynamic widget for stacked bar charts!",
+	"full_desc": "CTkExtendedGraph is a customizable and dynamic widget built on top of matplotlib for displaying stacked bar charts in Tkinter applications. It supports resizable GUIs, allows dynamic updates, and is highly customizable in terms of colors, categories, units, and title.",
+	"author": "Loris Dante (iLollek)",
+	"highlights": [
+		"Resizable: Automatically adjusts dimensions based on available space.",
+		"Customizable: Tailor title, categories, colors, and units.",
+		"Dynamic Updates: Easily add new data entries.",
+		"Easy Install: Install via pip."
+	],
+	"repo_url": "https://github.com/iLollek/CTkExtendedGraph",
+	"image_url": "https://raw.githubusercontent.com/iLollek/CTkExtendedGraph/refs/heads/main/demo_picture.png",
+	"installation": "pip install CTkExtendedGraph",
+	"tags": ["customtkinter", "widget", "matplotlib", "data visualization", "bar chart", "chart", "graph", "ctkextendedgraph"]
     }
 }
