@@ -1,7 +1,7 @@
 """
 Tkinter Toolkit
 Author: Akash Bora
-Version: 0.3
+Version: 0.4
 License: MIT
 Homepage: https://github.com/Akascape/tkinter-toolkit
 """
@@ -66,7 +66,8 @@ class App(customtkinter.CTk):
         self.about_button = customtkinter.CTkButton(master=self.frame, text="i", hover=False, width=30, command=self.open_about_window)
         self.about_button.grid(row=0, column=2, padx=10, pady=10, sticky="e")
         
-        self.option_type = customtkinter.CTkSegmentedButton(self.frame, values=["All","pip", "manual"], selected_color="grey10", selected_hover_color="grey12", height=30, command=self.filter_packages)
+        self.option_type = customtkinter.CTkSegmentedButton(self.frame, values=["All","pip", "manual"], selected_color=["grey40","grey10"],
+                                                            selected_hover_color=["grey38","grey12"], height=30, command=self.filter_packages)
         self.option_type.set("All")
         self.option_type.grid(row=1, column=0, columnspan=3, padx=10, pady=10, sticky="ew")
 
@@ -108,7 +109,7 @@ class App(customtkinter.CTk):
             desc = f"{self.data[name]['desc']} \nversion: {version}"
             self.data[name]["installation"] = f"{self.data[name]['installation']} --upgrade"
         else:
-            self.item_frame[name].configure(fg_color="grey20")
+            self.item_frame[name].configure(fg_color=["grey80", "grey20"])
             desc = f"{self.data[name]['desc']} "
 
         item_label = customtkinter.CTkLabel(self.item_frame[name], width=250, justify="left", text=desc, anchor="w", wraplength=250)
@@ -248,7 +249,7 @@ class App(customtkinter.CTk):
         scrollable_info = customtkinter.CTkScrollableFrame(toplevel)
         scrollable_info.pack(fill="both", padx=10, pady=10, expand=True)
         
-        image_label = customtkinter.CTkLabel(scrollable_info, fg_color="grey16", height=200, corner_radius=20, text="Image is Loading...")
+        image_label = customtkinter.CTkLabel(scrollable_info, fg_color=["grey86", "grey16"], height=200, corner_radius=20, text="Image is Loading...")
         image_label.pack(fill="both", padx=10, pady=10, expand=True)
 
         def add_image():
@@ -279,7 +280,8 @@ class App(customtkinter.CTk):
         self.repo = customtkinter.CTkLabel(frame_link, text="Repository Link: ", font=(self.font,14,"bold"))
         self.repo.pack(anchor="w", side="left")
         
-        label_stars = customtkinter.CTkButton(scrollable_info, text=f"Stars: ", anchor="w", font=(self.font, 15, "bold"), image=self.starimage, compound="left", hover=False, fg_color="transparent")
+        label_stars = customtkinter.CTkButton(scrollable_info, text=f"Stars: ", anchor="w", font=(self.font, 15, "bold"), image=self.starimage,
+                                              compound="left", hover=False, fg_color="transparent")
         label_stars.pack(fill="x", padx=(0, 10))
 
         def add_stats_avatar():
