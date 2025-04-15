@@ -1035,5 +1035,25 @@
 	"image_url": "https://raw.githubusercontent.com/iLollek/CTkExtendedGraph/refs/heads/main/demo_picture.png",
 	"installation": "pip install CTkExtendedGraph",
 	"tags": ["customtkinter", "widget", "matplotlib", "data visualization", "bar chart", "chart", "graph", "ctkextendedgraph"]
-    }
+    },
+
+"CTkFIleDialog": {
+	"name": "CTkFIleDialog",
+	"type": "manual",
+	"icon": "ctk",
+	"desc": "A customizable and dynamic widget for stacked bar charts!",
+	"full_desc": "An alternative to the standard tkinter.filedialog, written in CustomTkinter, so it matches the style of CustomTkinter applications.",
+	"author": "limafresh",
+	"highlights": [
+		"A better File Dialog for customtkinter",
+		"You can customize the width, height, title and initial dir. Folder browsing is fast and lag-free.",
+		"File Picker Widget",
+		"Cross Platform"
+	],
+	"repo_url": "https://github.com/limafresh/CTkFileDialog",
+	"image_url": "https://raw.githubusercontent.com/limafresh/CTkFileDialog/main/screenshot3.png",
+	"installation": "https://github.com/limafresh/CTkFileDialog",
+	"tags": ["ctkfiledialog", "customtkinter", "tkfiledialog", "filedialog", "fileexplorer", "finder", "fileopener", "filepicker", "ctkfilepicker"]
+    },
+
 }
