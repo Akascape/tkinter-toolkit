@@ -1054,6 +1054,25 @@
 	"image_url": "https://raw.githubusercontent.com/limafresh/CTkFileDialog/main/screenshot3.png",
 	"installation": "https://github.com/limafresh/CTkFileDialog",
 	"tags": ["ctkfiledialog", "customtkinter", "tkfiledialog", "filedialog", "fileexplorer", "finder", "fileopener", "filepicker", "ctkfilepicker"]
+    },
+	
+"CTkSeparator": {
+	"name": "ctkseparator",
+    	"type": "pip",
+   	"icon": "ctk",
+    	"desc": "Customizable Separator",
+    	"full_desc": "CTkSeparator is a widget for CustomTkinter that provides a customizable separating line. It supports dashed lines, gradient colors, and adjustable thickness. This makes it useful for visually dividing UI sections in a modern, aesthetic way.",
+    	"author": "AJ-cubes",
+    	"highlights": [
+		"Customizable separating line",
+	        "Supports dashed styles",
+	        "Gradient colors for styling",
+	        "Adjustable thickness",
+	],
+    	"repo_url": "https://github.com/AJ-cubes/CTkSeparator",
+    	"image_url": "https://raw.githubusercontent.com/AJ-cubes/CTkSeparator/refs/heads/main/examples/CTkSeparator%20Example.png",
+    	"installation": "pip install CTkSeparator",
+    	"tags": ["ctkseparator", "customtkinter", "ctk", "separator", "line", "gap", "border"]
     }
-
 }
+
