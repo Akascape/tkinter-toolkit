@@ -15,11 +15,14 @@ try:
     import io
     import webbrowser
     import sys
-    import pkg_resources
+    from importlib import metadata
     import threading
 except Exception as e:
+    print(e)
     import os
     os.system("pip install -r requirements.txt")
+    print("Dependencies have been installed. Please restart.")
+    quit()
 
 customtkinter.set_appearance_mode("System")
 customtkinter.set_default_color_theme("dark-blue")
@@ -80,7 +83,7 @@ class App(customtkinter.CTk):
         self.starimage = customtkinter.CTkImage(Image.open(os.path.join(App.DIRPATH, "assets", "star.png")))
         
         self.item_frame = {}
-        self.modules = [pkg.key for pkg in pkg_resources.working_set]
+        self.modules = [pkg.name.lower() for pkg in metadata.distributions()]
         self.read_database()
         
     def add_item(self, name, icon):
@@ -105,7 +108,7 @@ class App(customtkinter.CTk):
         item_name.grid(row=0, column=0, sticky="ew", pady=5, padx=5)
 
         if self.data[name]["name"] in self.modules:
-            version = pkg_resources.get_distribution(self.data[name]["name"]).version
+            version = metadata.version(self.data[name]["name"])
             desc = f"{self.data[name]['desc']} \nversion: {version}"
             self.data[name]["installation"] = f"{self.data[name]['installation']} --upgrade"
         else:
